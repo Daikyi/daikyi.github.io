@@ -1,0 +1,242 @@
+body {
+    background: #222222;
+    font-family: 'Roboto', sans-serif;
+    padding: 0.5em;
+}
+
+.page {
+    display: flex;
+}
+
+.sidebar {
+    display: inline-block;
+    width: 331px;
+    height: 1050px;
+    margin: 0 15px 0 0;
+    padding: 5px;
+    background-color: #333333;
+}
+
+.sidebar_info {
+    color: #DDDDDD;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+}
+
+.sidebar_card_body {
+    display: flex;
+}
+
+.title_card {
+    display: inline-block;
+    height: 60px;
+    padding-right: 1em;
+    vertical-align: bottom;
+}
+
+.button {
+    display: inline-block;
+    background-color: #48429f;
+    border: none;
+    color: #DDDDDD;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    height: 60px;
+    outline: none;
+    margin: 0px 5px;
+}
+
+.tool_group {
+    display: flex;
+    vertical-align: center;
+}
+
+.tool_bar {
+    display: flex;
+    vertical-align: center;
+    justify-content: space-between;
+}
+
+.options {
+    display: inline-block;
+    border: none;
+    color: #DDDDDD;
+    padding: 0px;
+    text-align: left;
+    font-size: 16px;
+    vertical-align: center;
+    min-height: 60px;
+    margin: 0px 15px;
+}
+
+.diff_input {
+    background: #222222;
+    border: 1px solid #48429f;
+    font-family: 'Roboto', sans-serif;
+    color: #DDDDDD;
+    width: 2em;
+    text-align: right;
+}
+
+#card_area {
+    display: flex;
+    font-family: 'Lato', sans-serif;
+    flex-wrap: wrap;
+}
+
+#sidebar_card_area {
+    font-family: 'Lato', sans-serif;
+}
+
+.card_bound {
+    background: #FFE658;
+    border: 4px solid #FFE658;
+    display: inline-block;
+    margin: 5px;
+    padding: 5px 5px 5px 2px;
+    box-shadow: 5px 5px 2px 2px #111111;
+    border-radius: 15px;
+}
+
+.card_regular, .card_protected, .card_vetoed {
+    display: inline-block;
+    margin: 10px;
+    padding: 2px;
+    border-radius: 20px;
+}
+
+.sidebar .card_regular, .sidebar .card_protected, .sidebar .card_vetoed {
+    display: inline-block;
+    margin: 2px;
+    padding: 0px;
+    border-radius: 10px;
+}
+
+.hide_vetoed .card_vetoed {
+    display: none;
+}
+
+.sidebar .banner_image {
+    margin: 0;
+}
+
+.card_regular {
+    border: 7px solid #444444;
+    opacity: .8;
+}
+
+.card_protected {
+    border: 7px solid #2589dd;
+    opacity: 1;
+}
+
+.card_vetoed {
+    border: 7px solid #444444;
+    opacity: .2;
+}
+
+.card_body {
+    display: inline-block;
+    background: url("res/img/basic_card_small.png");
+    background-size: cover;
+    width: 354px;
+    height: 346px;
+    user-select: none;
+}
+
+.banner_image {
+    background-size: cover;
+    width: 313.5px;
+    height: 123px;
+    margin-left: 22px;
+    margin-right: 18px;
+}
+
+.info_bar {
+    display: flex;
+    color: #000000;
+    font-weight: 700;
+    margin-left: 22px;
+    margin-right: 18px;
+    height: 41px;
+    align-items: end;
+}
+
+.info_title {
+    flex-grow: 1;
+    margin-left: 40px;
+}
+
+.text_title {
+    font-size: 120%;
+    font-family: 'Pragati Narrow', sans-serif;
+}
+
+.info_difficulty {
+    display: flex;
+    margin-left: 5px;
+    margin-right: 20px;
+    padding-bottom: 4px;
+    align-items: baseline;
+}
+
+.text_difficulty_marker {
+    font-size: 80%;
+}
+
+.text_difficulty {
+    font-size: 150%;
+}
+
+.sidebar_card_body {
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+.sidebar .text_difficulty {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 40px;
+    text-align: center;
+    background-color: #CCCCCC;
+}
+
+.content_bar {
+    display: flex;
+    margin-left: 22px;
+    margin-right: 18px;
+    margin-top: 25px;
+    height: 130px;
+    font-weight: 700;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.text_content_title {
+    font-size: 180%;
+    text-align: center;
+}
+
+.text_content_subtitle {
+    font-size: 140%;
+    text-align: center;
+}
+
+.info_content_cmod {
+    display: block;
+    width: 150px;
+}
+
+.no_cmod_box {
+    background: #48429f;
+    color: #CCCCCC;
+    font-size: 120%;
+    padding: 0px 8px;
+    border-radius: 5px;
+}

@@ -1,0 +1,482 @@
+[
+    {
+        "title": "Don't you Overload?",
+        "subtitle": "",
+        "difficulty": 14,
+        "modes": "DE",
+        "is_no_cmod": false,
+        "banner_filename": "Don_t You Overload-bn.png"
+    },
+    {
+        "title": "Glitch Nerds",
+        "subtitle": "",
+        "difficulty": 12,
+        "modes": "DE",
+        "is_no_cmod": false,
+        "banner_filename": "Glitch Nerds-bn.png"
+    },
+    {
+        "title": "\u7b2c\u516d\u5929\u9b54\u738b",
+        "subtitle": "Great Devil of the Sixth Heaven",
+        "difficulty": 14,
+        "modes": "DE",
+        "is_no_cmod": false,
+        "banner_filename": "devil-bn.png"
+    },
+    {
+        "title": "Improvisation Colosseum",
+        "subtitle": "",
+        "difficulty": 14,
+        "modes": "DE",
+        "is_no_cmod": false,
+        "banner_filename": "improvisation-bn.png"
+    },
+    {
+        "title": "Lick It (TYNAN Remix)",
+        "subtitle": "",
+        "difficulty": 13,
+        "modes": "DE",
+        "is_no_cmod": false,
+        "banner_filename": "Lick It (TYNAN Remix)-bn.png"
+    },
+    {
+        "title": "line \u03b8",
+        "subtitle": "",
+        "difficulty": 13,
+        "modes": "DE",
+        "is_no_cmod": false,
+        "banner_filename": "linebn.png"
+    },
+    {
+        "title": "Mazy Metroplex",
+        "subtitle": "",
+        "difficulty": 14,
+        "modes": "DE",
+        "is_no_cmod": false,
+        "banner_filename": "mazy_bn.png"
+    },
+    {
+        "title": "MONONOKE",
+        "subtitle": "",
+        "difficulty": 14,
+        "modes": "DE",
+        "is_no_cmod": false,
+        "banner_filename": "bn.png"
+    },
+    {
+        "title": "Poison Mushroom",
+        "subtitle": "",
+        "difficulty": 13,
+        "modes": "DE",
+        "is_no_cmod": false,
+        "banner_filename": "poisonmushroom-bn.png"
+    },
+    {
+        "title": "SUPER REACTOR",
+        "subtitle": "",
+        "difficulty": 12,
+        "modes": "DE",
+        "is_no_cmod": true,
+        "banner_filename": "bn0.png"
+    },
+    {
+        "title": "Bass Music",
+        "subtitle": "For Tommy",
+        "difficulty": 11,
+        "modes": "Pool",
+        "is_no_cmod": false,
+        "banner_filename": "bn1.png"
+    },
+    {
+        "title": "Dive in",
+        "subtitle": "",
+        "difficulty": 10,
+        "modes": "Pool",
+        "is_no_cmod": false,
+        "banner_filename": "bn2.png"
+    },
+    {
+        "title": "Heartbeat",
+        "subtitle": "",
+        "difficulty": 10,
+        "modes": "Pool",
+        "is_no_cmod": false,
+        "banner_filename": "Heartbeat-bn.png"
+    },
+    {
+        "title": "House With Legs",
+        "subtitle": "",
+        "difficulty": 11,
+        "modes": "Pool",
+        "is_no_cmod": false,
+        "banner_filename": "House_With_Legs-bn.png"
+    },
+    {
+        "title": "Kiss Me More",
+        "subtitle": "(feat. SZA) [Daju Remix]",
+        "difficulty": 9,
+        "modes": "Pool",
+        "is_no_cmod": false,
+        "banner_filename": "kissmemore-bn.png"
+    },
+    {
+        "title": "Megaburn",
+        "subtitle": "",
+        "difficulty": 9,
+        "modes": "Pool",
+        "is_no_cmod": false,
+        "banner_filename": "Megaburn-bn.png"
+    },
+    {
+        "title": "Pasadena",
+        "subtitle": "(feat. Buddy)",
+        "difficulty": 9,
+        "modes": "Pool",
+        "is_no_cmod": true,
+        "banner_filename": "pasadena-bn.png"
+    },
+    {
+        "title": "raindance",
+        "subtitle": "(feat. KanataN)",
+        "difficulty": 10,
+        "modes": "Pool",
+        "is_no_cmod": false,
+        "banner_filename": "raindance_bn.png"
+    },
+    {
+        "title": "SPOILER",
+        "subtitle": "",
+        "difficulty": 11,
+        "modes": "Pool",
+        "is_no_cmod": false,
+        "banner_filename": "bn3.png"
+    },
+    {
+        "title": "The Floor is Lava",
+        "subtitle": "",
+        "difficulty": 9,
+        "modes": "Pool",
+        "is_no_cmod": false,
+        "banner_filename": "bn4.png"
+    },
+    {
+        "title": "\u30a2\u30ea\u30b9\u30b5\u30a4\u30c9\u30fb\u30ad\u30e3\u30b9\u30ea\u30f3\u30b0",
+        "subtitle": "Alice Side Castling",
+        "difficulty": 11,
+        "modes": "All",
+        "is_no_cmod": false,
+        "banner_filename": "Alice_Side_Castling-bn.png"
+    },
+    {
+        "title": "BEAT PRISONER",
+        "subtitle": "",
+        "difficulty": 11,
+        "modes": "All",
+        "is_no_cmod": true,
+        "banner_filename": "bn5.png"
+    },
+    {
+        "title": "Comeback",
+        "subtitle": "",
+        "difficulty": 10,
+        "modes": "All",
+        "is_no_cmod": false,
+        "banner_filename": "Comeback-bn.png"
+    },
+    {
+        "title": "Dance with Silence",
+        "subtitle": "",
+        "difficulty": 12,
+        "modes": "All",
+        "is_no_cmod": false,
+        "banner_filename": "bn6.png"
+    },
+    {
+        "title": "Dark One",
+        "subtitle": "",
+        "difficulty": 10,
+        "modes": "All",
+        "is_no_cmod": false,
+        "banner_filename": "bn7.png"
+    },
+    {
+        "title": "Deep Down Low",
+        "subtitle": "(Gillepsy Remix)",
+        "difficulty": 10,
+        "modes": "All",
+        "is_no_cmod": false,
+        "banner_filename": "Deep_Down_Low_Gillepsy_Remix-bn.png"
+    },
+    {
+        "title": "edamame",
+        "subtitle": "",
+        "difficulty": 11,
+        "modes": "All",
+        "is_no_cmod": false,
+        "banner_filename": "edamame-bn.png"
+    },
+    {
+        "title": "EDM O'CLOCK",
+        "subtitle": "",
+        "difficulty": 11,
+        "modes": "All",
+        "is_no_cmod": false,
+        "banner_filename": "edm_o_clock_bn.png"
+    },
+    {
+        "title": "Enchanted Love",
+        "subtitle": "",
+        "difficulty": 12,
+        "modes": "All",
+        "is_no_cmod": false,
+        "banner_filename": "enchantedlove-bn.png"
+    },
+    {
+        "title": "Everlasting",
+        "subtitle": "",
+        "difficulty": 11,
+        "modes": "All",
+        "is_no_cmod": false,
+        "banner_filename": "bn8.png"
+    },
+    {
+        "title": "Feelin Sky",
+        "subtitle": "(Camellia's \"200step\" Self-remix)",
+        "difficulty": 13,
+        "modes": "All",
+        "is_no_cmod": false,
+        "banner_filename": "feelin sky-bn.png"
+    },
+    {
+        "title": "Flamenco House",
+        "subtitle": "",
+        "difficulty": 11,
+        "modes": "All",
+        "is_no_cmod": false,
+        "banner_filename": "Flamenco_House-bn.png"
+    },
+    {
+        "title": "For You",
+        "subtitle": "",
+        "difficulty": 10,
+        "modes": "All",
+        "is_no_cmod": false,
+        "banner_filename": "bn9.png"
+    },
+    {
+        "title": "Fork Funeral",
+        "subtitle": "",
+        "difficulty": 11,
+        "modes": "All",
+        "is_no_cmod": false,
+        "banner_filename": "forkfuneral-bn.png"
+    },
+    {
+        "title": "Hagiasmos",
+        "subtitle": "",
+        "difficulty": 11,
+        "modes": "All",
+        "is_no_cmod": true,
+        "banner_filename": "Hagiasmos-bn.png"
+    },
+    {
+        "title": "Huis Clos",
+        "subtitle": "",
+        "difficulty": 12,
+        "modes": "All",
+        "is_no_cmod": false,
+        "banner_filename": "Huis Clos-bn.png"
+    },
+    {
+        "title": "Inflamed",
+        "subtitle": "",
+        "difficulty": 10,
+        "modes": "All",
+        "is_no_cmod": false,
+        "banner_filename": "inflamed-bn.png"
+    },
+    {
+        "title": "Life is beautiful",
+        "subtitle": "For McJeebie",
+        "difficulty": 13,
+        "modes": "All",
+        "is_no_cmod": false,
+        "banner_filename": "bn10.png"
+    },
+    {
+        "title": "Melody Driven",
+        "subtitle": "",
+        "difficulty": 11,
+        "modes": "All",
+        "is_no_cmod": false,
+        "banner_filename": "melody driven-bn.png"
+    },
+    {
+        "title": "Midnight Hour",
+        "subtitle": "",
+        "difficulty": 10,
+        "modes": "All",
+        "is_no_cmod": false,
+        "banner_filename": "mh-bn.png"
+    },
+    {
+        "title": "Moonlight Punch Romance",
+        "subtitle": "",
+        "difficulty": 10,
+        "modes": "All",
+        "is_no_cmod": false,
+        "banner_filename": "bn11.png"
+    },
+    {
+        "title": "ON FIRE",
+        "subtitle": "",
+        "difficulty": 11,
+        "modes": "All",
+        "is_no_cmod": true,
+        "banner_filename": "onfire-bn.png"
+    },
+    {
+        "title": "orbital revolution",
+        "subtitle": "(Maozon Remix)",
+        "difficulty": 12,
+        "modes": "All",
+        "is_no_cmod": false,
+        "banner_filename": "orbital-bn.png"
+    },
+    {
+        "title": "Quixotic",
+        "subtitle": "",
+        "difficulty": 12,
+        "modes": "All",
+        "is_no_cmod": false,
+        "banner_filename": "Quixotic-bn.png"
+    },
+    {
+        "title": "Rainmaker",
+        "subtitle": "",
+        "difficulty": 12,
+        "modes": "All",
+        "is_no_cmod": false,
+        "banner_filename": "rainmaker_bn.png"
+    },
+    {
+        "title": "Raspberry Railgun",
+        "subtitle": "",
+        "difficulty": 12,
+        "modes": "All",
+        "is_no_cmod": false,
+        "banner_filename": "raspberry bn.png"
+    },
+    {
+        "title": "Redolent Shape",
+        "subtitle": "",
+        "difficulty": 13,
+        "modes": "All",
+        "is_no_cmod": false,
+        "banner_filename": "redolent_shape_bn.png"
+    },
+    {
+        "title": "\u30b7\u30e3\u30c3\u30ad\u30fc\u30fc\u30f3\uff01\uff01",
+        "subtitle": "Shakkiiin!!",
+        "difficulty": 13,
+        "modes": "All",
+        "is_no_cmod": false,
+        "banner_filename": "Shakkiiin-bn.png"
+    },
+    {
+        "title": "Skywalking",
+        "subtitle": "",
+        "difficulty": 10,
+        "modes": "All",
+        "is_no_cmod": false,
+        "banner_filename": "skywalking-bn.png"
+    },
+    {
+        "title": "Take Me To Pleasure Island",
+        "subtitle": "",
+        "difficulty": 12,
+        "modes": "All",
+        "is_no_cmod": false,
+        "banner_filename": "pleasure_island_bn.png"
+    },
+    {
+        "title": "The 89's Momentum",
+        "subtitle": "",
+        "difficulty": 11,
+        "modes": "All",
+        "is_no_cmod": false,
+        "banner_filename": "89s bn.png"
+    },
+    {
+        "title": "The 90's Decision",
+        "subtitle": "",
+        "difficulty": 11,
+        "modes": "All",
+        "is_no_cmod": false,
+        "banner_filename": "bn12.png"
+    },
+    {
+        "title": "Upshift",
+        "subtitle": "Yunosuke Remix",
+        "difficulty": 12,
+        "modes": "All",
+        "is_no_cmod": true,
+        "banner_filename": "bn13.png"
+    },
+    {
+        "title": "VAMPIRE",
+        "subtitle": "",
+        "difficulty": 11,
+        "modes": "All",
+        "is_no_cmod": false,
+        "banner_filename": "Vampire-bn.png"
+    },
+    {
+        "title": "Virus Funk",
+        "subtitle": "",
+        "difficulty": 11,
+        "modes": "All",
+        "is_no_cmod": false,
+        "banner_filename": "bn14.png"
+    },
+    {
+        "title": "Voidwalkers",
+        "subtitle": "",
+        "difficulty": 12,
+        "modes": "All",
+        "is_no_cmod": false,
+        "banner_filename": "Voidwalkers-bn.png"
+    },
+    {
+        "title": "XYZ",
+        "subtitle": "",
+        "difficulty": 13,
+        "modes": "All",
+        "is_no_cmod": true,
+        "banner_filename": "XYZ-bn.png"
+    },
+    {
+        "title": "Yo!! Say!! Fairy!!",
+        "subtitle": "",
+        "difficulty": 12,
+        "modes": "All",
+        "is_no_cmod": false,
+        "banner_filename": "bn15.png"
+    },
+    {
+        "title": "Young Killa",
+        "subtitle": "",
+        "difficulty": 12,
+        "modes": "All",
+        "is_no_cmod": false,
+        "banner_filename": "young_killa-bn.png"
+    },
+    {
+        "title": "Zora",
+        "subtitle": "",
+        "difficulty": 11,
+        "modes": "All",
+        "is_no_cmod": false,
+        "banner_filename": "zora-bn.png"
+    }
+]

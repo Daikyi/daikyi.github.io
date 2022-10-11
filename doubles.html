@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DOUBLES card draw</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <link rel="stylesheet" href="doubles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:400"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:700"
+    />
+    <script type="text/javascript" src="deps/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="doubles.js"></script>
+  </head>
+  <body>
+    <div class="tool_bar">
+      <div class="tool_group">
+        <div class="title_card">
+          <img src="rip115web.svg" width="150px" />
+        </div>
+        <input id="draw5" type="submit" class="button" value="Draw 5" />
+        <input id="draw7" type="submit" class="button" value="Draw 7" />
+        <div class="options">
+          <div>
+            <label>
+              Difficulty:
+              <input id="diff_lo" type="text" class="diff_input" value="11" />
+              &ndash;
+              <input id="diff_hi" type="text" class="diff_input" value="13" />
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <div class="tool_group">
+        <input id="undo" type="submit" class="button" value="Undo" />
+        <input id="redo" type="submit" class="button" value="Redo" />
+
+        <input id="submit" type="submit" class="button" value="Send" />
+      </div>
+    </div>
+
+    <hr />
+
+    <div id="card-area"></div>
+  </body>
+</html>

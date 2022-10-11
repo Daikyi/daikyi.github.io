@@ -1,0 +1,474 @@
+[
+    {
+        "title": "Quality Control",
+        "subtitle": "",
+        "difficulty": 11,
+        "modes": "All",
+        "is_no_cmod": true,
+        "banner_filename": "bn.png"
+    },
+    {
+        "title": "Levitate",
+        "subtitle": "",
+        "difficulty": 10,
+        "modes": "All",
+        "is_no_cmod": false,
+        "banner_filename": "Levibn.png"
+    },
+    {
+        "title": "interstellar travel",
+        "subtitle": "",
+        "difficulty": 14,
+        "modes": "DE",
+        "is_no_cmod": false,
+        "banner_filename": "interstellar-bn.png"
+    },
+    {
+        "title": "Cowbell Rock",
+        "subtitle": "",
+        "difficulty": 12,
+        "modes": "All",
+        "is_no_cmod": false,
+        "banner_filename": "cowbellrock-bn.png"
+    },
+    {
+        "title": "cat's magic\u2606",
+        "subtitle": "",
+        "difficulty": 10,
+        "modes": "Pool",
+        "is_no_cmod": false,
+        "banner_filename": "cat's magic-BN.png"
+    },
+    {
+        "title": "Bubble In The Air",
+        "subtitle": "",
+        "difficulty": 12,
+        "modes": "All",
+        "is_no_cmod": false,
+        "banner_filename": "bn0.png"
+    },
+    {
+        "title": "Arcology On Permafrost",
+        "subtitle": "",
+        "difficulty": 13,
+        "modes": "DE",
+        "is_no_cmod": false,
+        "banner_filename": "bn1.png"
+    },
+    {
+        "title": "Shakariki Hopping",
+        "subtitle": "",
+        "difficulty": 11,
+        "modes": "All",
+        "is_no_cmod": false,
+        "banner_filename": "shakariki bn.png"
+    },
+    {
+        "title": "kannabis kultivation",
+        "subtitle": "",
+        "difficulty": 12,
+        "modes": "All",
+        "is_no_cmod": false,
+        "banner_filename": "kannabis kultivation-bn.png"
+    },
+    {
+        "title": "DOWNER & UPPER",
+        "subtitle": "",
+        "difficulty": 10,
+        "modes": "All",
+        "is_no_cmod": false,
+        "banner_filename": "DOWNER & UPPER-bn.png"
+    },
+    {
+        "title": "Exhaust Hype",
+        "subtitle": "",
+        "difficulty": 11,
+        "modes": "All",
+        "is_no_cmod": false,
+        "banner_filename": "Exhaust Hype BN.png"
+    },
+    {
+        "title": "Vampire Killer",
+        "subtitle": "(scar-ed Pf rmx)",
+        "difficulty": 11,
+        "modes": "DE",
+        "is_no_cmod": true,
+        "banner_filename": "vampirekiller-bn.png"
+    },
+    {
+        "title": "*Pulse Wave Intensifies*",
+        "subtitle": "",
+        "difficulty": 11,
+        "modes": "All",
+        "is_no_cmod": true,
+        "banner_filename": "bn2.png"
+    },
+    {
+        "title": "\u3006",
+        "subtitle": "(Extended Mix)",
+        "difficulty": 12,
+        "modes": "All",
+        "is_no_cmod": true,
+        "banner_filename": "shime-bn.png"
+    },
+    {
+        "title": "Rush-More",
+        "subtitle": "",
+        "difficulty": 12,
+        "modes": "All",
+        "is_no_cmod": false,
+        "banner_filename": "rm-bn.png"
+    },
+    {
+        "title": "CENSORED!!",
+        "subtitle": "",
+        "difficulty": 12,
+        "modes": "DE",
+        "is_no_cmod": false,
+        "banner_filename": "CENSORED!!-bn.png"
+    },
+    {
+        "title": "Hastur",
+        "subtitle": "",
+        "difficulty": 11,
+        "modes": "All",
+        "is_no_cmod": false,
+        "banner_filename": "Hastur-bn.png"
+    },
+    {
+        "title": "\u83ef\u721b\u6f2b -Flowers-",
+        "subtitle": "",
+        "difficulty": 9,
+        "modes": "Pool",
+        "is_no_cmod": true,
+        "banner_filename": "Flowers-bn.png"
+    },
+    {
+        "title": "Glitched Character",
+        "subtitle": "",
+        "difficulty": 14,
+        "modes": "DE",
+        "is_no_cmod": false,
+        "banner_filename": "bn3.png"
+    },
+    {
+        "title": "Welcome To The Cyphisonia",
+        "subtitle": "",
+        "difficulty": 12,
+        "modes": "All",
+        "is_no_cmod": false,
+        "banner_filename": "Welcome_To_The_Cyphisonia-bn.png"
+    },
+    {
+        "title": "The Way I Am",
+        "subtitle": "",
+        "difficulty": 9,
+        "modes": "Pool",
+        "is_no_cmod": true,
+        "banner_filename": "twim-bn.png"
+    },
+    {
+        "title": "Maintenance Monogatari",
+        "subtitle": "",
+        "difficulty": 10,
+        "modes": "All",
+        "is_no_cmod": true,
+        "banner_filename": "Maintenance Monogatari-BN.png"
+    },
+    {
+        "title": "GOODWORLD",
+        "subtitle": "",
+        "difficulty": 12,
+        "modes": "All",
+        "is_no_cmod": true,
+        "banner_filename": "good_world-bn.png"
+    },
+    {
+        "title": "SPEED ROCKER",
+        "subtitle": "",
+        "difficulty": 11,
+        "modes": "All",
+        "is_no_cmod": false,
+        "banner_filename": "Speed Rocker-BN.png"
+    },
+    {
+        "title": "Metamorphosis",
+        "subtitle": "",
+        "difficulty": 12,
+        "modes": "All",
+        "is_no_cmod": true,
+        "banner_filename": "Metamorphosis-bn.png"
+    },
+    {
+        "title": "Kurenai no panselinos",
+        "subtitle": "",
+        "difficulty": 11,
+        "modes": "All",
+        "is_no_cmod": false,
+        "banner_filename": "panselinos-bn.png"
+    },
+    {
+        "title": "Tizona d'El Cid",
+        "subtitle": "",
+        "difficulty": 10,
+        "modes": "All",
+        "is_no_cmod": false,
+        "banner_filename": "tizona bn.png"
+    },
+    {
+        "title": "Romi and Robo's Space Tour",
+        "subtitle": "",
+        "difficulty": 11,
+        "modes": "All",
+        "is_no_cmod": false,
+        "banner_filename": "Romi and Robo's Space Tour-BN.png"
+    },
+    {
+        "title": "Ethnik Khemikal Teknologi",
+        "subtitle": "",
+        "difficulty": 13,
+        "modes": "All",
+        "is_no_cmod": false,
+        "banner_filename": "Ethnik Khemikal Teknologi-bn.png"
+    },
+    {
+        "title": "Bedlam",
+        "subtitle": "",
+        "difficulty": 13,
+        "modes": "All",
+        "is_no_cmod": true,
+        "banner_filename": "bedlam bn.png"
+    },
+    {
+        "title": "Neutrino",
+        "subtitle": "",
+        "difficulty": 14,
+        "modes": "DE",
+        "is_no_cmod": true,
+        "banner_filename": "bn4.png"
+    },
+    {
+        "title": "WONDER_WOBBLER",
+        "subtitle": "",
+        "difficulty": 12,
+        "modes": "All",
+        "is_no_cmod": false,
+        "banner_filename": "WONDER_WOBBLER-bn.png"
+    },
+    {
+        "title": "CO5M1C R4ILR0AD",
+        "subtitle": "",
+        "difficulty": 13,
+        "modes": "DE",
+        "is_no_cmod": false,
+        "banner_filename": "CO5M1C R4ILR0AD-bn.png"
+    },
+    {
+        "title": "Chatterbox",
+        "subtitle": "",
+        "difficulty": 9,
+        "modes": "Pool",
+        "is_no_cmod": false,
+        "banner_filename": "Chatterbox-bn.png"
+    },
+    {
+        "title": "Travel to Future",
+        "subtitle": "",
+        "difficulty": 13,
+        "modes": "All",
+        "is_no_cmod": false,
+        "banner_filename": "bn5.png"
+    },
+    {
+        "title": "Renkei epilogue",
+        "subtitle": "",
+        "difficulty": 11,
+        "modes": "All",
+        "is_no_cmod": true,
+        "banner_filename": "Renkei epilogue-bn.png"
+    },
+    {
+        "title": "Panjandrum",
+        "subtitle": "",
+        "difficulty": 11,
+        "modes": "All",
+        "is_no_cmod": false,
+        "banner_filename": "bn6.png"
+    },
+    {
+        "title": "The Edge",
+        "subtitle": "",
+        "difficulty": 10,
+        "modes": "Pool",
+        "is_no_cmod": false,
+        "banner_filename": "The Edge-bn.png"
+    },
+    {
+        "title": "How We Win",
+        "subtitle": "",
+        "difficulty": 11,
+        "modes": "All",
+        "is_no_cmod": false,
+        "banner_filename": "How We Win-bn.png"
+    },
+    {
+        "title": "Chronoxia",
+        "subtitle": "",
+        "difficulty": 12,
+        "modes": "DE",
+        "is_no_cmod": false,
+        "banner_filename": "chronoxia bn.png"
+    },
+    {
+        "title": "Swampgator",
+        "subtitle": "",
+        "difficulty": 11,
+        "modes": "All",
+        "is_no_cmod": false,
+        "banner_filename": "swampgator-bn.png"
+    },
+    {
+        "title": "Field of Hopes and Dreams",
+        "subtitle": "",
+        "difficulty": 9,
+        "modes": "Pool",
+        "is_no_cmod": false,
+        "banner_filename": "bn7.png"
+    },
+    {
+        "title": "Final Boss II",
+        "subtitle": "",
+        "difficulty": 13,
+        "modes": "DE",
+        "is_no_cmod": false,
+        "banner_filename": "fb2-bn.png"
+    },
+    {
+        "title": "Cobaltblue",
+        "subtitle": "",
+        "difficulty": 12,
+        "modes": "All",
+        "is_no_cmod": true,
+        "banner_filename": "Cobaltblue-bn.png"
+    },
+    {
+        "title": "Flip Trick",
+        "subtitle": "",
+        "difficulty": 11,
+        "modes": "All",
+        "is_no_cmod": false,
+        "banner_filename": "Flip Trick-bn.png"
+    },
+    {
+        "title": "Speed Complex",
+        "subtitle": "",
+        "difficulty": 10,
+        "modes": "All",
+        "is_no_cmod": false,
+        "banner_filename": "Speed Complex-bn.png"
+    },
+    {
+        "title": "ERIS",
+        "subtitle": "",
+        "difficulty": 11,
+        "modes": "All",
+        "is_no_cmod": false,
+        "banner_filename": "ERIS-bn.png"
+    },
+    {
+        "title": "Headspace",
+        "subtitle": "",
+        "difficulty": 12,
+        "modes": "All",
+        "is_no_cmod": false,
+        "banner_filename": "bn8.png"
+    },
+    {
+        "title": "Coffee Stomp",
+        "subtitle": "",
+        "difficulty": 11,
+        "modes": "All",
+        "is_no_cmod": false,
+        "banner_filename": "Coffee Stomp-bn.png"
+    },
+    {
+        "title": "Jeetvak",
+        "subtitle": "",
+        "difficulty": 11,
+        "modes": "All",
+        "is_no_cmod": false,
+        "banner_filename": "Jeetvak-bn.png"
+    },
+    {
+        "title": "Dive",
+        "subtitle": "",
+        "difficulty": 10,
+        "modes": "All",
+        "is_no_cmod": false,
+        "banner_filename": "dive-bn.png"
+    },
+    {
+        "title": "9mm",
+        "subtitle": "",
+        "difficulty": 11,
+        "modes": "All",
+        "is_no_cmod": false,
+        "banner_filename": "9mm-bn.png"
+    },
+    {
+        "title": "Surf",
+        "subtitle": "",
+        "difficulty": 9,
+        "modes": "Pool",
+        "is_no_cmod": false,
+        "banner_filename": "surf-bn.png"
+    },
+    {
+        "title": "Clean The Sea",
+        "subtitle": "",
+        "difficulty": 10,
+        "modes": "Pool",
+        "is_no_cmod": false,
+        "banner_filename": "Clean the Sea-bn.png"
+    },
+    {
+        "title": "Samplinglitch",
+        "subtitle": "",
+        "difficulty": 10,
+        "modes": "All",
+        "is_no_cmod": false,
+        "banner_filename": "bn9.png"
+    },
+    {
+        "title": "Cosmic Invaders",
+        "subtitle": "",
+        "difficulty": 12,
+        "modes": "All",
+        "is_no_cmod": false,
+        "banner_filename": "invaders-bn.png"
+    },
+    {
+        "title": "Turning Point",
+        "subtitle": "",
+        "difficulty": 12,
+        "modes": "All",
+        "is_no_cmod": false,
+        "banner_filename": "Turning Point-bn.png"
+    },
+    {
+        "title": "Earthquake",
+        "subtitle": "",
+        "difficulty": 11,
+        "modes": "All",
+        "is_no_cmod": false,
+        "banner_filename": "tm26-bn.png"
+    },
+    {
+        "title": "Got You",
+        "subtitle": "",
+        "difficulty": 10,
+        "modes": "Pool",
+        "is_no_cmod": false,
+        "banner_filename": "Got You-bn.png"
+    }
+]
