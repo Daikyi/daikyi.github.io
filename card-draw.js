@@ -26,7 +26,7 @@ $(document).ready(() => {
   // Register a failure handler.
   jqXHR.fail(function() {
     var str = "Fail to load JSON. Stopping the page from loading.";
-    alert(str)
+    //alert(str)
 	jqXHR = $.getJSON(`https://raw.githubusercontent.com/Daikyi/daikyi.github.io/main/res/neon/data.json`, (data) => {
 		songs = data;
 	  })
