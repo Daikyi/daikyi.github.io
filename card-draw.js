@@ -3,9 +3,9 @@
 // I have opted for very verbose comments with the intent
 // that less-JS-experienced clubmembers may open this in the future.
 
-const tournament = 'rip121';
+const tournament = 'neon';
 
-const discordWebhookUrl = 'https://dis' + 'corda' + 'pp.com/api/webho' + 'oks/51087618717882' + '7786/zBNpG-Db' + 'lnHLqfaHt8' + 'mI1gPZfKr0wEZ5p6MIr' + 'Z1fZ' + 'RJRz8jFYv' + '1IwqNIfdH5xIY-w_Ud'; // so bots don't scrape it
+const discordWebhookUrl = 'https://dis' + 'corda' + 'pp.com/api/webho' + 'oks/'; // so bots don't scrape it
 const previousStateStack = [];
 let cardObjects = [];
 let songs = [];

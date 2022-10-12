@@ -1,482 +1,970 @@
 [
     {
-        "title": "Don't you Overload?",
-        "subtitle": "",
-        "difficulty": 14,
-        "modes": "DE",
-        "is_no_cmod": false,
-        "banner_filename": "Don_t You Overload-bn.png"
+      "title": "Movement",
+      "subtitle": "Rebirth - Glass Port",
+      "difficulty": "1-1",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
     },
     {
-        "title": "Glitch Nerds",
-        "subtitle": "",
-        "difficulty": 12,
-        "modes": "DE",
-        "is_no_cmod": false,
-        "banner_filename": "Glitch Nerds-bn.png"
+      "title": "Pummel",
+      "subtitle": "Rebirth - Glass Port",
+      "difficulty": "1-2",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
     },
     {
-        "title": "\u7b2c\u516d\u5929\u9b54\u738b",
-        "subtitle": "Great Devil of the Sixth Heaven",
-        "difficulty": 14,
-        "modes": "DE",
-        "is_no_cmod": false,
-        "banner_filename": "devil-bn.png"
+      "title": "Gunner",
+      "subtitle": "Rebirth - Glass Port",
+      "difficulty": "1-3",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
     },
     {
-        "title": "Improvisation Colosseum",
-        "subtitle": "",
-        "difficulty": 14,
-        "modes": "DE",
-        "is_no_cmod": false,
-        "banner_filename": "improvisation-bn.png"
+      "title": "Cascade",
+      "subtitle": "Rebirth - Glass Port",
+      "difficulty": "1-4",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
     },
     {
-        "title": "Lick It (TYNAN Remix)",
-        "subtitle": "",
-        "difficulty": 13,
-        "modes": "DE",
-        "is_no_cmod": false,
-        "banner_filename": "Lick It (TYNAN Remix)-bn.png"
+      "title": "Elevate",
+      "subtitle": "Rebirth - Glass Port",
+      "difficulty": "1-5",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
     },
     {
-        "title": "line \u03b8",
-        "subtitle": "",
-        "difficulty": 13,
-        "modes": "DE",
-        "is_no_cmod": false,
-        "banner_filename": "linebn.png"
+      "title": "Bounce",
+      "subtitle": "Rebirth - Glass Port",
+      "difficulty": "1-6",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
     },
     {
-        "title": "Mazy Metroplex",
-        "subtitle": "",
-        "difficulty": 14,
-        "modes": "DE",
-        "is_no_cmod": false,
-        "banner_filename": "mazy_bn.png"
+      "title": "Purify",
+      "subtitle": "Rebirth - Glass Port",
+      "difficulty": "1-7",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
     },
     {
-        "title": "MONONOKE",
-        "subtitle": "",
-        "difficulty": 14,
-        "modes": "DE",
-        "is_no_cmod": false,
-        "banner_filename": "bn.png"
+      "title": "Climb",
+      "subtitle": "Rebirth - Glass Port",
+      "difficulty": "1-8",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
     },
     {
-        "title": "Poison Mushroom",
-        "subtitle": "",
-        "difficulty": 13,
-        "modes": "DE",
-        "is_no_cmod": false,
-        "banner_filename": "poisonmushroom-bn.png"
+      "title": "Fasttrack",
+      "subtitle": "Rebirth - Glass Port",
+      "difficulty": "1-9",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
     },
     {
-        "title": "SUPER REACTOR",
-        "subtitle": "",
-        "difficulty": 12,
-        "modes": "DE",
-        "is_no_cmod": true,
-        "banner_filename": "bn0.png"
+      "title": "Glass Port",
+      "subtitle": "Rebirth - Glass Port",
+      "difficulty": "1-10",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
     },
     {
-        "title": "Bass Music",
-        "subtitle": "For Tommy",
-        "difficulty": 11,
-        "modes": "Pool",
-        "is_no_cmod": false,
-        "banner_filename": "bn1.png"
+      "title": "Take Flight",
+      "subtitle": "Killer Inside - Lower Heaven",
+      "difficulty": "2-1",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
     },
     {
-        "title": "Dive in",
-        "subtitle": "",
-        "difficulty": 10,
-        "modes": "Pool",
-        "is_no_cmod": false,
-        "banner_filename": "bn2.png"
+      "title": "Godspeed",
+      "subtitle": "Killer Inside - Lower Heaven",
+      "difficulty": "2-2",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
     },
     {
-        "title": "Heartbeat",
-        "subtitle": "",
-        "difficulty": 10,
-        "modes": "Pool",
-        "is_no_cmod": false,
-        "banner_filename": "Heartbeat-bn.png"
+      "title": "Dasher",
+      "subtitle": "Killer Inside - Lower Heaven",
+      "difficulty": "2-3",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
     },
     {
-        "title": "House With Legs",
-        "subtitle": "",
-        "difficulty": 11,
-        "modes": "Pool",
-        "is_no_cmod": false,
-        "banner_filename": "House_With_Legs-bn.png"
+      "title": "Thrasher",
+      "subtitle": "Killer Inside - Lower Heaven",
+      "difficulty": "2-4",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
     },
     {
-        "title": "Kiss Me More",
-        "subtitle": "(feat. SZA) [Daju Remix]",
-        "difficulty": 9,
-        "modes": "Pool",
-        "is_no_cmod": false,
-        "banner_filename": "kissmemore-bn.png"
+      "title": "Outstretched",
+      "subtitle": "Killer Inside - Lower Heaven",
+      "difficulty": "2-5",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
     },
     {
-        "title": "Megaburn",
-        "subtitle": "",
-        "difficulty": 9,
-        "modes": "Pool",
-        "is_no_cmod": false,
-        "banner_filename": "Megaburn-bn.png"
+      "title": "Smackdown",
+      "subtitle": "Killer Inside - Lower Heaven",
+      "difficulty": "2-6",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
     },
     {
-        "title": "Pasadena",
-        "subtitle": "(feat. Buddy)",
-        "difficulty": 9,
-        "modes": "Pool",
-        "is_no_cmod": true,
-        "banner_filename": "pasadena-bn.png"
+      "title": "Catwalk",
+      "subtitle": "Killer Inside - Lower Heaven",
+      "difficulty": "2-7",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
     },
     {
-        "title": "raindance",
-        "subtitle": "(feat. KanataN)",
-        "difficulty": 10,
-        "modes": "Pool",
-        "is_no_cmod": false,
-        "banner_filename": "raindance_bn.png"
+      "title": "Fastlane",
+      "subtitle": "Killer Inside - Lower Heaven",
+      "difficulty": "2-8",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
     },
     {
-        "title": "SPOILER",
-        "subtitle": "",
-        "difficulty": 11,
-        "modes": "Pool",
-        "is_no_cmod": false,
-        "banner_filename": "bn3.png"
+      "title": "Distinguish",
+      "subtitle": "Killer Inside - Lower Heaven",
+      "difficulty": "2-9",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
     },
     {
-        "title": "The Floor is Lava",
-        "subtitle": "",
-        "difficulty": 9,
-        "modes": "Pool",
-        "is_no_cmod": false,
-        "banner_filename": "bn4.png"
+      "title": "Dancer",
+      "subtitle": "Killer Inside - Lower Heaven",
+      "difficulty": "2-10",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
     },
     {
-        "title": "\u30a2\u30ea\u30b9\u30b5\u30a4\u30c9\u30fb\u30ad\u30e3\u30b9\u30ea\u30f3\u30b0",
-        "subtitle": "Alice Side Castling",
-        "difficulty": 11,
-        "modes": "All",
-        "is_no_cmod": false,
-        "banner_filename": "Alice_Side_Castling-bn.png"
+      "title": "Guardian",
+      "subtitle": "Only Shallow - Lower Heaven",
+      "difficulty": "3-1",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
     },
     {
-        "title": "BEAT PRISONER",
-        "subtitle": "",
-        "difficulty": 11,
-        "modes": "All",
-        "is_no_cmod": true,
-        "banner_filename": "bn5.png"
+      "title": "Stomp",
+      "subtitle": "Only Shallow - Lower Heaven",
+      "difficulty": "3-2",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
     },
     {
-        "title": "Comeback",
-        "subtitle": "",
-        "difficulty": 10,
-        "modes": "All",
-        "is_no_cmod": false,
-        "banner_filename": "Comeback-bn.png"
+      "title": "Jumper",
+      "subtitle": "Only Shallow - Lower Heaven",
+      "difficulty": "3-3",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
     },
     {
-        "title": "Dance with Silence",
-        "subtitle": "",
-        "difficulty": 12,
-        "modes": "All",
-        "is_no_cmod": false,
-        "banner_filename": "bn6.png"
+      "title": "Dash Tower",
+      "subtitle": "Only Shallow - Lower Heaven",
+      "difficulty": "3-4",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
     },
     {
-        "title": "Dark One",
-        "subtitle": "",
-        "difficulty": 10,
-        "modes": "All",
-        "is_no_cmod": false,
-        "banner_filename": "bn7.png"
+      "title": "Descent",
+      "subtitle": "Only Shallow - Lower Heaven",
+      "difficulty": "3-5",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
     },
     {
-        "title": "Deep Down Low",
-        "subtitle": "(Gillepsy Remix)",
-        "difficulty": 10,
-        "modes": "All",
-        "is_no_cmod": false,
-        "banner_filename": "Deep_Down_Low_Gillepsy_Remix-bn.png"
+      "title": "Driller",
+      "subtitle": "Only Shallow - Lower Heaven",
+      "difficulty": "3-6",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
     },
     {
-        "title": "edamame",
-        "subtitle": "",
-        "difficulty": 11,
-        "modes": "All",
-        "is_no_cmod": false,
-        "banner_filename": "edamame-bn.png"
+      "title": "Canals",
+      "subtitle": "Only Shallow - Lower Heaven",
+      "difficulty": "3-7",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
     },
     {
-        "title": "EDM O'CLOCK",
-        "subtitle": "",
-        "difficulty": 11,
-        "modes": "All",
-        "is_no_cmod": false,
-        "banner_filename": "edm_o_clock_bn.png"
+      "title": "Sprint",
+      "subtitle": "Only Shallow - Lower Heaven",
+      "difficulty": "3-8",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
     },
     {
-        "title": "Enchanted Love",
-        "subtitle": "",
-        "difficulty": 12,
-        "modes": "All",
-        "is_no_cmod": false,
-        "banner_filename": "enchantedlove-bn.png"
+      "title": "Mountain",
+      "subtitle": "Only Shallow - Lower Heaven",
+      "difficulty": "3-9",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
     },
     {
-        "title": "Everlasting",
-        "subtitle": "",
-        "difficulty": 11,
-        "modes": "All",
-        "is_no_cmod": false,
-        "banner_filename": "bn8.png"
+      "title": "Superkinetic",
+      "subtitle": "Only Shallow - Lower Heaven",
+      "difficulty": "3-10",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
     },
     {
-        "title": "Feelin Sky",
-        "subtitle": "(Camellia's \"200step\" Self-remix)",
-        "difficulty": 13,
-        "modes": "All",
-        "is_no_cmod": false,
-        "banner_filename": "feelin sky-bn.png"
+      "title": "Arrival",
+      "subtitle": "The Old City - Old City",
+      "difficulty": "4-1",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
     },
     {
-        "title": "Flamenco House",
-        "subtitle": "",
-        "difficulty": 11,
-        "modes": "All",
-        "is_no_cmod": false,
-        "banner_filename": "Flamenco_House-bn.png"
+      "title": "Forgotten City",
+      "subtitle": "The Old City - Old City",
+      "difficulty": "4-2",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
     },
     {
-        "title": "For You",
-        "subtitle": "",
-        "difficulty": 10,
-        "modes": "All",
-        "is_no_cmod": false,
-        "banner_filename": "bn9.png"
+      "title": "The Clocktower",
+      "subtitle": "The Old City - Old City",
+      "difficulty": "4-3",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
     },
     {
-        "title": "Fork Funeral",
-        "subtitle": "",
-        "difficulty": 11,
-        "modes": "All",
-        "is_no_cmod": false,
-        "banner_filename": "forkfuneral-bn.png"
+      "title": "Fireball",
+      "subtitle": "The Burn That Cures - Lower Heaven",
+      "difficulty": "5-1",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
     },
     {
-        "title": "Hagiasmos",
-        "subtitle": "",
-        "difficulty": 11,
-        "modes": "All",
-        "is_no_cmod": true,
-        "banner_filename": "Hagiasmos-bn.png"
+      "title": "Ringer",
+      "subtitle": "The Burn That Cures - Lower Heaven",
+      "difficulty": "5-2",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
     },
     {
-        "title": "Huis Clos",
-        "subtitle": "",
-        "difficulty": 12,
-        "modes": "All",
-        "is_no_cmod": false,
-        "banner_filename": "Huis Clos-bn.png"
+      "title": "Cleaner",
+      "subtitle": "The Burn That Cures - Lower Heaven",
+      "difficulty": "5-3",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
     },
     {
-        "title": "Inflamed",
-        "subtitle": "",
-        "difficulty": 10,
-        "modes": "All",
-        "is_no_cmod": false,
-        "banner_filename": "inflamed-bn.png"
+      "title": "Warehouse",
+      "subtitle": "The Burn That Cures - Lower Heaven",
+      "difficulty": "5-4",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
     },
     {
-        "title": "Life is beautiful",
-        "subtitle": "For McJeebie",
-        "difficulty": 13,
-        "modes": "All",
-        "is_no_cmod": false,
-        "banner_filename": "bn10.png"
+      "title": "Boom",
+      "subtitle": "The Burn That Cures - Lower Heaven",
+      "difficulty": "5-5",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
     },
     {
-        "title": "Melody Driven",
-        "subtitle": "",
-        "difficulty": 11,
-        "modes": "All",
-        "is_no_cmod": false,
-        "banner_filename": "melody driven-bn.png"
+      "title": "Streets",
+      "subtitle": "The Burn That Cures - Lower Heaven",
+      "difficulty": "5-6",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
     },
     {
-        "title": "Midnight Hour",
-        "subtitle": "",
-        "difficulty": 10,
-        "modes": "All",
-        "is_no_cmod": false,
-        "banner_filename": "mh-bn.png"
+      "title": "Steps",
+      "subtitle": "The Burn That Cures - Lower Heaven",
+      "difficulty": "5-7",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
     },
     {
-        "title": "Moonlight Punch Romance",
-        "subtitle": "",
-        "difficulty": 10,
-        "modes": "All",
-        "is_no_cmod": false,
-        "banner_filename": "bn11.png"
+      "title": "Demolition",
+      "subtitle": "The Burn That Cures - Lower Heaven",
+      "difficulty": "5-8",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
     },
     {
-        "title": "ON FIRE",
-        "subtitle": "",
-        "difficulty": 11,
-        "modes": "All",
-        "is_no_cmod": true,
-        "banner_filename": "onfire-bn.png"
+      "title": "Arcs",
+      "subtitle": "The Burn That Cures - Lower Heaven",
+      "difficulty": "5-9",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
     },
     {
-        "title": "orbital revolution",
-        "subtitle": "(Maozon Remix)",
-        "difficulty": 12,
-        "modes": "All",
-        "is_no_cmod": false,
-        "banner_filename": "orbital-bn.png"
+      "title": "Apartment",
+      "subtitle": "The Burn That Cures - Lower Heaven",
+      "difficulty": "5-10",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
     },
     {
-        "title": "Quixotic",
-        "subtitle": "",
-        "difficulty": 12,
-        "modes": "All",
-        "is_no_cmod": false,
-        "banner_filename": "Quixotic-bn.png"
+      "title": "Hanging Gardens",
+      "subtitle": "Covenant - Hanging Gardens",
+      "difficulty": "6-1",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
     },
     {
-        "title": "Rainmaker",
-        "subtitle": "",
-        "difficulty": 12,
-        "modes": "All",
-        "is_no_cmod": false,
-        "banner_filename": "rainmaker_bn.png"
+      "title": "Tangled",
+      "subtitle": "Covenant - Hanging Gardens",
+      "difficulty": "6-2",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
     },
     {
-        "title": "Raspberry Railgun",
-        "subtitle": "",
-        "difficulty": 12,
-        "modes": "All",
-        "is_no_cmod": false,
-        "banner_filename": "raspberry bn.png"
+      "title": "Waterworks",
+      "subtitle": "Covenant - Hanging Gardens",
+      "difficulty": "6-3",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
     },
     {
-        "title": "Redolent Shape",
-        "subtitle": "",
-        "difficulty": 13,
-        "modes": "All",
-        "is_no_cmod": false,
-        "banner_filename": "redolent_shape_bn.png"
+      "title": "Killswitch",
+      "subtitle": "Covenant - Hanging Gardens",
+      "difficulty": "6-4",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
     },
     {
-        "title": "\u30b7\u30e3\u30c3\u30ad\u30fc\u30fc\u30f3\uff01\uff01",
-        "subtitle": "Shakkiiin!!",
-        "difficulty": 13,
-        "modes": "All",
-        "is_no_cmod": false,
-        "banner_filename": "Shakkiiin-bn.png"
+      "title": "Falling",
+      "subtitle": "Covenant - Hanging Gardens",
+      "difficulty": "6-5",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
     },
     {
-        "title": "Skywalking",
-        "subtitle": "",
-        "difficulty": 10,
-        "modes": "All",
-        "is_no_cmod": false,
-        "banner_filename": "skywalking-bn.png"
+      "title": "Shocker",
+      "subtitle": "Covenant - Hanging Gardens",
+      "difficulty": "6-6",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
     },
     {
-        "title": "Take Me To Pleasure Island",
-        "subtitle": "",
-        "difficulty": 12,
-        "modes": "All",
-        "is_no_cmod": false,
-        "banner_filename": "pleasure_island_bn.png"
+      "title": "Bouquet",
+      "subtitle": "Covenant - Hanging Gardens",
+      "difficulty": "6-7",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
     },
     {
-        "title": "The 89's Momentum",
-        "subtitle": "",
-        "difficulty": 11,
-        "modes": "All",
-        "is_no_cmod": false,
-        "banner_filename": "89s bn.png"
+      "title": "Prepare",
+      "subtitle": "Covenant - Hanging Gardens",
+      "difficulty": "6-8",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
     },
     {
-        "title": "The 90's Decision",
-        "subtitle": "",
-        "difficulty": 11,
-        "modes": "All",
-        "is_no_cmod": false,
-        "banner_filename": "bn12.png"
+      "title": "Triptrack",
+      "subtitle": "Covenant - Hanging Gardens",
+      "difficulty": "6-9",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
     },
     {
-        "title": "Upshift",
-        "subtitle": "Yunosuke Remix",
-        "difficulty": 12,
-        "modes": "All",
-        "is_no_cmod": true,
-        "banner_filename": "bn13.png"
+      "title": "Race",
+      "subtitle": "Covenant - Hanging Gardens",
+      "difficulty": "6-10",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
     },
     {
-        "title": "VAMPIRE",
-        "subtitle": "",
-        "difficulty": 11,
-        "modes": "All",
-        "is_no_cmod": false,
-        "banner_filename": "Vampire-bn.png"
+      "title": "Bubble",
+      "subtitle": "Reckoning - Hanging Gardens",
+      "difficulty": "7-1",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
     },
     {
-        "title": "Virus Funk",
-        "subtitle": "",
-        "difficulty": 11,
-        "modes": "All",
-        "is_no_cmod": false,
-        "banner_filename": "bn14.png"
+      "title": "Shield",
+      "subtitle": "Reckoning - Hanging Gardens",
+      "difficulty": "7-2",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
     },
     {
-        "title": "Voidwalkers",
-        "subtitle": "",
-        "difficulty": 12,
-        "modes": "All",
-        "is_no_cmod": false,
-        "banner_filename": "Voidwalkers-bn.png"
+      "title": "Overlook",
+      "subtitle": "Reckoning - Hanging Gardens",
+      "difficulty": "7-3",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
     },
     {
-        "title": "XYZ",
-        "subtitle": "",
-        "difficulty": 13,
-        "modes": "All",
-        "is_no_cmod": true,
-        "banner_filename": "XYZ-bn.png"
+      "title": "Pop",
+      "subtitle": "Reckoning - Hanging Gardens",
+      "difficulty": "7-4",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
     },
     {
-        "title": "Yo!! Say!! Fairy!!",
-        "subtitle": "",
-        "difficulty": 12,
-        "modes": "All",
-        "is_no_cmod": false,
-        "banner_filename": "bn15.png"
+      "title": "Minefield",
+      "subtitle": "Reckoning - Hanging Gardens",
+      "difficulty": "7-5",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
     },
     {
-        "title": "Young Killa",
-        "subtitle": "",
-        "difficulty": 12,
-        "modes": "All",
-        "is_no_cmod": false,
-        "banner_filename": "young_killa-bn.png"
+      "title": "Mimic",
+      "subtitle": "Reckoning - Hanging Gardens",
+      "difficulty": "7-6",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
     },
     {
-        "title": "Zora",
-        "subtitle": "",
-        "difficulty": 11,
-        "modes": "All",
-        "is_no_cmod": false,
-        "banner_filename": "zora-bn.png"
+      "title": "Trigger",
+      "subtitle": "Reckoning - Hanging Gardens",
+      "difficulty": "7-7",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
+    },
+    {
+      "title": "Greenhouse",
+      "subtitle": "Reckoning - Hanging Gardens",
+      "difficulty": "7-8",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
+    },
+    {
+      "title": "Sweep",
+      "subtitle": "Reckoning - Hanging Gardens",
+      "difficulty": "7-9",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
+    },
+    {
+      "title": "Fuse",
+      "subtitle": "Reckoning - Hanging Gardens",
+      "difficulty": "7-10",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
+    },
+    {
+      "title": "Heaven’s Edge",
+      "subtitle": "Benediction - Heaven's Edge",
+      "difficulty": "8-1",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
+    },
+    {
+      "title": "Zipline",
+      "subtitle": "Benediction - Heaven's Edge",
+      "difficulty": "8-2",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
+    },
+    {
+      "title": "Swing",
+      "subtitle": "Benediction - Heaven's Edge",
+      "difficulty": "8-3",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
+    },
+    {
+      "title": "Chute",
+      "subtitle": "Benediction - Heaven's Edge",
+      "difficulty": "8-4",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
+    },
+    {
+      "title": "Crash",
+      "subtitle": "Benediction - Heaven's Edge",
+      "difficulty": "8-5",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
+    },
+    {
+      "title": "Ascent",
+      "subtitle": "Benediction - Heaven's Edge",
+      "difficulty": "8-6",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
+    },
+    {
+      "title": "Straightaway",
+      "subtitle": "Benediction - Heaven's Edge",
+      "difficulty": "8-7",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
+    },
+    {
+      "title": "Firecracker",
+      "subtitle": "Benediction - Heaven's Edge",
+      "difficulty": "8-8",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
+    },
+    {
+      "title": "Streak",
+      "subtitle": "Benediction - Heaven's Edge",
+      "difficulty": "8-9",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
+    },
+    {
+      "title": "Mirror",
+      "subtitle": "Benediction - Heaven's Edge",
+      "difficulty": "8-10",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
+    },
+    {
+      "title": "Escalation",
+      "subtitle": "Apocrypha - Heaven's Edge",
+      "difficulty": "9-1",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
+    },
+    {
+      "title": "Bolt",
+      "subtitle": "Apocrypha - Heaven's Edge",
+      "difficulty": "9-2",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
+    },
+    {
+      "title": "Godstreak",
+      "subtitle": "Apocrypha - Heaven's Edge",
+      "difficulty": "9-3",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
+    },
+    {
+      "title": "Plunge",
+      "subtitle": "Apocrypha - Heaven's Edge",
+      "difficulty": "9-4",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
+    },
+    {
+      "title": "Mayhem",
+      "subtitle": "Apocrypha - Heaven's Edge",
+      "difficulty": "9-5",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
+    },
+    {
+      "title": "Barrage",
+      "subtitle": "Apocrypha - Heaven's Edge",
+      "difficulty": "9-6",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
+    },
+    {
+      "title": "Estate",
+      "subtitle": "Apocrypha - Heaven's Edge",
+      "difficulty": "9-7",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
+    },
+    {
+      "title": "Trapwire",
+      "subtitle": "Apocrypha - Heaven's Edge",
+      "difficulty": "9-8",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
+    },
+    {
+      "title": "Ricochet",
+      "subtitle": "Apocrypha - Heaven's Edge",
+      "difficulty": "9-9",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
+    },
+    {
+      "title": "Fortress",
+      "subtitle": "Apocrypha - Heaven's Edge",
+      "difficulty": "9-10",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
+    },
+    {
+      "title": "Holy Ground",
+      "subtitle": "The Third Temple - Third Temple",
+      "difficulty": "10-1",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
+    },
+    {
+      "title": "The Third Temple",
+      "subtitle": "The Third Temple - Third Temple",
+      "difficulty": "10-2",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
+    },
+    {
+      "title": "Spree",
+      "subtitle": "Thousand Pound Butterfly - ???",
+      "difficulty": "11-1",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
+    },
+    {
+      "title": "Breakthrough",
+      "subtitle": "Thousand Pound Butterfly - ???",
+      "difficulty": "11-2",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
+    },
+    {
+      "title": "Glide",
+      "subtitle": "Thousand Pound Butterfly - ???",
+      "difficulty": "11-3",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
+    },
+    {
+      "title": "Closer",
+      "subtitle": "Thousand Pound Butterfly - ???",
+      "difficulty": "11-4",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
+    },
+    {
+      "title": "Hike",
+      "subtitle": "Thousand Pound Butterfly - ???",
+      "difficulty": "11-5",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
+    },
+    {
+      "title": "Switch",
+      "subtitle": "Thousand Pound Butterfly - ???",
+      "difficulty": "11-6",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
+    },
+    {
+      "title": "Access",
+      "subtitle": "Thousand Pound Butterfly - ???",
+      "difficulty": "11-7",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
+    },
+    {
+      "title": "Congregation",
+      "subtitle": "Thousand Pound Butterfly - ???",
+      "difficulty": "11-8",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
+    },
+    {
+      "title": "Sequence",
+      "subtitle": "Thousand Pound Butterfly - ???",
+      "difficulty": "11-9",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
+    },
+    {
+      "title": "Marathon",
+      "subtitle": "Thousand Pound Butterfly - ???",
+      "difficulty": "11-10",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
+    },
+    {
+      "title": "Sacrifice",
+      "subtitle": "Hand of God - Glass Port",
+      "difficulty": "12-1",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
+    },
+    {
+      "title": "Absolution",
+      "subtitle": "Hand of God - Glass Port",
+      "difficulty": "12-2",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
+    },
+    {
+      "title": "Elevate Traversal I",
+      "subtitle": "Red Sidequest - Sheol",
+      "difficulty": "R-1",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
+    },
+    {
+      "title": "Elevate Traversal II",
+      "subtitle": "Red Sidequest - Sheol",
+      "difficulty": "R-2",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
+    },
+    {
+      "title": "Purify Traversal",
+      "subtitle": "Red Sidequest - Sheol",
+      "difficulty": "R-3",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
+    },
+    {
+      "title": "Godspeed Traversal",
+      "subtitle": "Red Sidequest - Sheol",
+      "difficulty": "R-4",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
+    },
+    {
+      "title": "Stomp Traversal",
+      "subtitle": "Red Sidequest - Sheol",
+      "difficulty": "R-5",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
+    },
+    {
+      "title": "Fireball Traversal",
+      "subtitle": "Red Sidequest - Sheol",
+      "difficulty": "R-6",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
+    },
+    {
+      "title": "Dominion Traversal",
+      "subtitle": "Red Sidequest - Sheol",
+      "difficulty": "R-7",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
+    },
+    {
+      "title": "Book of Life Traversal",
+      "subtitle": "Red Sidequest - Sheol",
+      "difficulty": "R-8",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
+    },
+    {
+      "title": "Doghouse",
+      "subtitle": "Violet Sidequest - Sheol",
+      "difficulty": "V-1",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
+    },
+    {
+      "title": "Choker",
+      "subtitle": "Violet Sidequest - Sheol",
+      "difficulty": "V-2",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
+    },
+    {
+      "title": "Chain",
+      "subtitle": "Violet Sidequest - Sheol",
+      "difficulty": "V-3",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
+    },
+    {
+      "title": "Hellevator",
+      "subtitle": "Violet Sidequest - Sheol",
+      "difficulty": "V-4",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
+    },
+    {
+      "title": "Razor",
+      "subtitle": "Violet Sidequest - Sheol",
+      "difficulty": "V-5",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
+    },
+    {
+      "title": "All Seeing Eye",
+      "subtitle": "Violet Sidequest - Sheol",
+      "difficulty": "V-6",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
+    },
+    {
+      "title": "Resident Saw I",
+      "subtitle": "Violet Sidequest - Sheol",
+      "difficulty": "V-7",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
+    },
+    {
+      "title": "Resident Saw II",
+      "subtitle": "Violet Sidequest - Sheol",
+      "difficulty": "V-8",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
+    },
+    {
+      "title": "Sunset Flip Powerbomb",
+      "subtitle": "Yellow Sidequest - Sheol",
+      "difficulty": "Y-1",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
+    },
+    {
+      "title": "Balloon Mountain",
+      "subtitle": "Yellow Sidequest - Sheol",
+      "difficulty": "Y-2",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
+    },
+    {
+      "title": "Climbing Gym",
+      "subtitle": "Yellow Sidequest - Sheol",
+      "difficulty": "Y-3",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
+    },
+    {
+      "title": "Fisherman Suplex",
+      "subtitle": "Yellow Sidequest - Sheol",
+      "difficulty": "Y-4",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
+    },
+    {
+      "title": "STF",
+      "subtitle": "Yellow Sidequest - Sheol",
+      "difficulty": "Y-5",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
+    },
+    {
+      "title": "Arena",
+      "subtitle": "Yellow Sidequest - Sheol",
+      "difficulty": "Y-6",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
+    },
+    {
+      "title": "Attitude Adjustment",
+      "subtitle": "Yellow Sidequest - Sheol",
+      "difficulty": "Y-7",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
+    },
+    {
+      "title": "Rocket",
+      "subtitle": "Yellow Sidequest - Sheol",
+      "difficulty": "Y-8",
+      "modes": "All",
+      "is_no_cmod": "false",
+      "banner_filename": "1.png"
     }
-]
+  ]
