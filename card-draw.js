@@ -27,7 +27,10 @@ $(document).ready(() => {
   jqXHR.fail(function() {
     var str = "Fail to load JSON. Stopping the page from loading.";
     alert(str)
-    throw new Error(str);
+	jqXHR = $.getJSON(`https://raw.githubusercontent.com/Daikyi/daikyi.github.io/main/res/neon/data.json`, (data) => {
+		songs = data;
+	  })
+    //throw new Error(str);
   });
 
   const statuses = ['card_regular', 'card_protected', 'card_vetoed'];
@@ -114,7 +117,7 @@ $(document).ready(() => {
             <div class="card_regular">
                 <div class="sidebar_card_body">
                     <div class="banner_image"></div>
-                    <div class="text_content_title">${songObject.title}</div>
+                    <div class="text_difficulty">${songObject.title}</div>
                 </div>
             </div>
       `)
