@@ -189,6 +189,7 @@ body {
 
 .text_difficulty {
     font-size: 150%;
+	color: #DDDDDD;
 }
 
 .sidebar_card_body {
@@ -197,8 +198,9 @@ body {
     left: 0px;
 }
 
-.sidebar .text_difficulty {
+.sidebar .text_difficulty_side {
     position: absolute;
+	font-size: 125%;
     top: 0px;
     left: 0px;
     text-align: center;
