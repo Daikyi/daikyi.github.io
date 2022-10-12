@@ -89,11 +89,11 @@ $(document).ready(() => {
                 <div class="card_bound">
                     <div class="card_body">
                         <div class="info_bar">
-                            <div class="info_title">
+                            <!--<div class="info_title">
                                 <div class="text_title">${songObject.title}</div>
-                            </div>
+                            </div>-->
                             <div class="info_difficulty">
-                                <div class="text_difficulty_marker">Stage</div>
+                                <!--<div class="text_difficulty_marker">Stage</div>-->
                                 <div class="text_difficulty">${songObject.difficulty}</div>
                             </div>
                         </div>
@@ -122,6 +122,8 @@ $(document).ready(() => {
             </div>
       `)
       img.find('.banner_image').css('background-image', `url("res/${tournament}/banners/${songObject.banner_filename}")`);
+      img.find('.card_body').css('background', `url("res/${tournament}/cards/${songObject.card_filename}")`);
+      img.find('.card_body').css('background-size', `cover`);
       img_side.find('.banner_image').css('background-image', `url("res/${tournament}/banners/${songObject.banner_filename}")`);
       if (!songObject.is_no_cmod) {
         img.find('.no_cmod_box').remove();
