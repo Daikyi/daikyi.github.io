@@ -61,7 +61,7 @@ $(document).ready(() => {
       chosenSongIndicesArray.push(songIndex);
 
       // remove the chosen song from the pool
-      songIndicesArray[x] = songIndicesArray[goodSongIndicesArray.length-1];
+      songIndicesArray[x] = songIndicesArray[songIndicesArray.length-1];
       songIndicesArray.pop();
     }
 
