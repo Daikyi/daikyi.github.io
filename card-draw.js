@@ -35,40 +35,34 @@ $(document).ready(() => {
   let currentPosition = -1;
 
   // return: array of indices of all acceptable songs
-  function getGoodSongIndices(diff_lo, diff_hi, mode) {
-    const goodSongIndicesArray = [];
-    // for each song
+  function getSongIndices(diff_lo, diff_hi, mode) {
+    const songIndicesArray = [];
+    // for each song, create a copy for removal in pool
     for (let i = 0; i < songs.length; i += 1) {
-      let diff_in_bound = diff_lo <= songs[i].difficulty && songs[i].difficulty <= diff_hi;
-      let ok_pool = (mode !== 'pool' || songs[i].modes !== 'DE');
-      let ok_dbel = (mode !== 'dbel' || songs[i].modes !== 'Pool');
-      // only add the song to the array if it satisfies difficulty and mode conditions
-      if (diff_in_bound && ok_pool && ok_dbel) {
-        goodSongIndicesArray.push(i);
-      }
+        songIndicesArray.push(i);
     }
-    return goodSongIndicesArray;
+    return songIndicesArray;
   }
 
   // param: number of cards you want, difficulty bounds lo/hi, mode string
   // return: array of random integers from set of all possible songs
   // there can be fewer cards than numRequested if not enough songs qualify
-  function randomize(numRequested, diff_lo, diff_hi, mode) {
+  function randomize(numRequested) {
     const chosenSongIndicesArray = [];
-    const goodSongIndicesArray = getGoodSongIndices(diff_lo, diff_hi, mode);
+    const songIndicesArray = getSongIndices();
 
     // for a total of numRequested times (or until no good songs left)
-    for (let i = 0; i < numRequested && goodSongIndicesArray.length > 0; i += 1) {
+    for (let i = 0; i < numRequested && songIndicesArray.length > 0; i += 1) {
       // pick a random item from the good song list
-      let x = Math.floor(Math.random() * goodSongIndicesArray.length);
-      let songIndex = goodSongIndicesArray[x];
+      let x = Math.floor(Math.random() * songIndicesArray.length);
+      let songIndex = songIndicesArray[x];
       
       // add the chosen song to the output
       chosenSongIndicesArray.push(songIndex);
 
       // remove the chosen song from the pool
-      goodSongIndicesArray[x] = goodSongIndicesArray[goodSongIndicesArray.length-1];
-      goodSongIndicesArray.pop();
+      songIndicesArray[x] = songIndicesArray[goodSongIndicesArray.length-1];
+      songIndicesArray.pop();
     }
 
     // now the array contains a lot of random numbers
@@ -96,7 +90,7 @@ $(document).ready(() => {
                                 <div class="text_title">${songObject.title}</div>
                             </div>
                             <div class="info_difficulty">
-                                <div class="text_difficulty_marker">Lv</div>
+                                <div class="text_difficulty_marker">Stage</div>
                                 <div class="text_difficulty">${songObject.difficulty}</div>
                             </div>
                         </div>
@@ -109,7 +103,7 @@ $(document).ready(() => {
                                 <div class="text_content_subtitle">${songObject.subtitle}</div>
                             </div>
                             <div class="info_content_cmod">
-                                <div class="no_cmod_box">NO CMOD</div>
+                                <div class="no_cmod_box">15 Mins</div>
                             </div>
                         </div>
                     </div>
@@ -159,7 +153,7 @@ $(document).ready(() => {
       console.log('bad parameters: '+[diff_lo, diff_hi, mode]);
       return;
     }
-    const randomNumberArray = randomize(number, diff_lo, diff_hi, mode);
+    const randomNumberArray = randomize(number);
     previousStateStack.push(randomNumberArray);
     currentPosition += 1;
     render(randomNumberArray);
