@@ -260,7 +260,7 @@
       "subtitle": "The Old City - Old City",
       "difficulty": "4-3",
       "modes": "All",
-      "is_no_cmod": false,
+      "is_no_cmod": true,
       "banner_filename": "4-3.png"
     },
     {
@@ -532,7 +532,7 @@
       "subtitle": "Benediction - Heaven's Edge",
       "difficulty": "8-4",
       "modes": "All",
-      "is_no_cmod": false,
+      "is_no_cmod": true,
       "banner_filename": "8-4.png"
     },
     {
@@ -556,7 +556,7 @@
       "subtitle": "Benediction - Heaven's Edge",
       "difficulty": "8-7",
       "modes": "All",
-      "is_no_cmod": false,
+      "is_no_cmod": true,
       "banner_filename": "8-7.png"
     },
     {
@@ -668,7 +668,7 @@
       "subtitle": "The Third Temple - Third Temple",
       "difficulty": "10-1",
       "modes": "All",
-      "is_no_cmod": false,
+      "is_no_cmod": true,
       "banner_filename": "10-1.png"
     },
     {
@@ -676,7 +676,7 @@
       "subtitle": "The Third Temple - Third Temple",
       "difficulty": "10-2",
       "modes": "All",
-      "is_no_cmod": false,
+      "is_no_cmod": true,
       "banner_filename": "10-2.png"
     },
     {
@@ -764,7 +764,7 @@
       "subtitle": "Hand of God - Glass Port",
       "difficulty": "12-1",
       "modes": "All",
-      "is_no_cmod": false,
+      "is_no_cmod": true,
       "banner_filename": "12-1.png"
     },
     {
@@ -772,7 +772,7 @@
       "subtitle": "Hand of God - Glass Port",
       "difficulty": "12-2",
       "modes": "All",
-      "is_no_cmod": false,
+      "is_no_cmod": true,
       "banner_filename": "12-2.png"
     },
     {
@@ -812,7 +812,7 @@
       "subtitle": "Red Sidequest - Sheol",
       "difficulty": "R-5",
       "modes": "All",
-      "is_no_cmod": false,
+      "is_no_cmod": true,
       "banner_filename": "R-5.png"
     },
     {
@@ -820,7 +820,7 @@
       "subtitle": "Red Sidequest - Sheol",
       "difficulty": "R-6",
       "modes": "All",
-      "is_no_cmod": false,
+      "is_no_cmod": true,
       "banner_filename": "R-6.png"
     },
     {
@@ -828,7 +828,7 @@
       "subtitle": "Red Sidequest - Sheol",
       "difficulty": "R-7",
       "modes": "All",
-      "is_no_cmod": false,
+      "is_no_cmod": true,
       "banner_filename": "R-7.png"
     },
     {
@@ -908,7 +908,7 @@
       "subtitle": "Yellow Sidequest - Sheol",
       "difficulty": "Y-1",
       "modes": "All",
-      "is_no_cmod": false,
+      "is_no_cmod": true,
       "banner_filename": "Y-1.png"
     },
     {
@@ -924,7 +924,7 @@
       "subtitle": "Yellow Sidequest - Sheol",
       "difficulty": "Y-3",
       "modes": "All",
-      "is_no_cmod": false,
+      "is_no_cmod": true,
       "banner_filename": "Y-3.png"
     },
     {
@@ -932,7 +932,7 @@
       "subtitle": "Yellow Sidequest - Sheol",
       "difficulty": "Y-4",
       "modes": "All",
-      "is_no_cmod": false,
+      "is_no_cmod": true,
       "banner_filename": "Y-4.png"
     },
     {
@@ -956,7 +956,7 @@
       "subtitle": "Yellow Sidequest - Sheol",
       "difficulty": "Y-7",
       "modes": "All",
-      "is_no_cmod": false,
+      "is_no_cmod": true,
       "banner_filename": "Y-7.png"
     },
     {
