@@ -114,7 +114,7 @@ $(document).ready(() => {
             <div class="card_regular">
                 <div class="sidebar_card_body">
                     <div class="banner_image"></div>
-                    <div class="text_difficulty">${songObject.difficulty}</div>
+                    <div class="text_content_title">${songObject.title}</div>
                 </div>
             </div>
       `)
