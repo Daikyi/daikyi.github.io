@@ -1085,7 +1085,7 @@
       "card_filename": "Sheol.png",
       "difficulty": "Y-8",
       "modes": "All",
-      "is_no_cmod": false,
+      "is_no_cmod": true,
       "banner_filename": "Y-8.png"
     }
 ]
