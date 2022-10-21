@@ -4,7 +4,7 @@
       "subtitle": "Rebirth",
       "card_filename": "Glass Port.png",
       "difficulty": "1-1",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "1-1.png"
     },
@@ -13,7 +13,7 @@
       "subtitle": "Rebirth",
       "card_filename": "Glass Port.png",
       "difficulty": "1-2",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "1-2.png"
     },
@@ -22,7 +22,7 @@
       "subtitle": "Rebirth",
       "card_filename": "Glass Port.png",
       "difficulty": "1-3",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "1-3.png"
     },
@@ -31,7 +31,7 @@
       "subtitle": "Rebirth",
       "card_filename": "Glass Port.png",
       "difficulty": "1-4",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "1-4.png"
     },
@@ -40,7 +40,7 @@
       "subtitle": "Rebirth",
       "card_filename": "Glass Port.png",
       "difficulty": "1-5",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "1-5.png"
     },
@@ -49,7 +49,7 @@
       "subtitle": "Rebirth",
       "card_filename": "Glass Port.png",
       "difficulty": "1-6",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "1-6.png"
     },
@@ -58,7 +58,7 @@
       "subtitle": "Rebirth",
       "card_filename": "Glass Port.png",
       "difficulty": "1-7",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "1-7.png"
     },
@@ -67,7 +67,7 @@
       "subtitle": "Rebirth",
       "card_filename": "Glass Port.png",
       "difficulty": "1-8",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "1-8.png"
     },
@@ -76,7 +76,7 @@
       "subtitle": "Rebirth",
       "card_filename": "Glass Port.png",
       "difficulty": "1-9",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "1-9.png"
     },
@@ -85,7 +85,7 @@
       "subtitle": "Rebirth",
       "card_filename": "Glass Port.png",
       "difficulty": "1-10",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "1-10.png"
     },
@@ -94,7 +94,7 @@
       "subtitle": "Killer Inside",
       "card_filename": "Lower Heaven.png",
       "difficulty": "2-1",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "2-1.png"
     },
@@ -103,7 +103,7 @@
       "subtitle": "Killer Inside",
       "card_filename": "Lower Heaven.png",
       "difficulty": "2-2",
-      "modes": "All",
+      "default_ban": 1,
       "is_no_cmod": false,
       "banner_filename": "2-2.png"
     },
@@ -112,7 +112,7 @@
       "subtitle": "Killer Inside",
       "card_filename": "Lower Heaven.png",
       "difficulty": "2-3",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "2-3.png"
     },
@@ -121,7 +121,7 @@
       "subtitle": "Killer Inside",
       "card_filename": "Lower Heaven.png",
       "difficulty": "2-4",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "2-4.png"
     },
@@ -130,7 +130,7 @@
       "subtitle": "Killer Inside",
       "card_filename": "Lower Heaven.png",
       "difficulty": "2-5",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "2-5.png"
     },
@@ -139,7 +139,7 @@
       "subtitle": "Killer Inside",
       "card_filename": "Lower Heaven.png",
       "difficulty": "2-6",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "2-6.png"
     },
@@ -148,7 +148,7 @@
       "subtitle": "Killer Inside",
       "card_filename": "Lower Heaven.png",
       "difficulty": "2-7",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "2-7.png"
     },
@@ -157,7 +157,7 @@
       "subtitle": "Killer Inside",
       "card_filename": "Lower Heaven.png",
       "difficulty": "2-8",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "2-8.png"
     },
@@ -166,7 +166,7 @@
       "subtitle": "Killer Inside",
       "card_filename": "Lower Heaven.png",
       "difficulty": "2-9",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "2-9.png"
     },
@@ -175,7 +175,7 @@
       "subtitle": "Killer Inside",
       "card_filename": "Lower Heaven.png",
       "difficulty": "2-10",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "2-10.png"
     },
@@ -184,7 +184,7 @@
       "subtitle": "Only Shallow",
       "card_filename": "Lower Heaven2.png",
       "difficulty": "3-1",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "3-1.png"
     },
@@ -193,7 +193,7 @@
       "subtitle": "Only Shallow",
       "card_filename": "Lower Heaven2.png",
       "difficulty": "3-2",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "3-2.png"
     },
@@ -202,7 +202,7 @@
       "subtitle": "Only Shallow",
       "card_filename": "Lower Heaven2.png",
       "difficulty": "3-3",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "3-3.png"
     },
@@ -211,7 +211,7 @@
       "subtitle": "Only Shallow",
       "card_filename": "Lower Heaven2.png",
       "difficulty": "3-4",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "3-4.png"
     },
@@ -220,7 +220,7 @@
       "subtitle": "Only Shallow",
       "card_filename": "Lower Heaven2.png",
       "difficulty": "3-5",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "3-5.png"
     },
@@ -229,7 +229,7 @@
       "subtitle": "Only Shallow",
       "card_filename": "Lower Heaven2.png",
       "difficulty": "3-6",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "3-6.png"
     },
@@ -238,7 +238,7 @@
       "subtitle": "Only Shallow",
       "card_filename": "Lower Heaven2.png",
       "difficulty": "3-7",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "3-7.png"
     },
@@ -247,7 +247,7 @@
       "subtitle": "Only Shallow",
       "card_filename": "Lower Heaven2.png",
       "difficulty": "3-8",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "3-8.png"
     },
@@ -256,7 +256,7 @@
       "subtitle": "Only Shallow",
       "card_filename": "Lower Heaven2.png",
       "difficulty": "3-9",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "3-9.png"
     },
@@ -265,7 +265,7 @@
       "subtitle": "Only Shallow",
       "card_filename": "Lower Heaven2.png",
       "difficulty": "3-10",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "3-10.png"
     },
@@ -274,7 +274,7 @@
       "subtitle": "The Old City",
       "card_filename": "Old City.png",
       "difficulty": "4-1",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "4-1.png"
     },
@@ -283,7 +283,7 @@
       "subtitle": "The Old City",
       "card_filename": "Old City.png",
       "difficulty": "4-2",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "4-2.png"
     },
@@ -292,7 +292,7 @@
       "subtitle": "The Old City",
       "card_filename": "Old City.png",
       "difficulty": "4-3",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": true,
       "banner_filename": "4-3.png"
     },
@@ -301,7 +301,7 @@
       "subtitle": "The Burn That Cures",
       "card_filename": "Lower Heaven2.png",
       "difficulty": "5-1",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "5-1.png"
     },
@@ -310,7 +310,7 @@
       "subtitle": "The Burn That Cures",
       "card_filename": "Lower Heaven2.png",
       "difficulty": "5-2",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "5-2.png"
     },
@@ -319,7 +319,7 @@
       "subtitle": "The Burn That Cures",
       "card_filename": "Lower Heaven2.png",
       "difficulty": "5-3",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "5-3.png"
     },
@@ -328,7 +328,7 @@
       "subtitle": "The Burn That Cures",
       "card_filename": "Lower Heaven2.png",
       "difficulty": "5-4",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "5-4.png"
     },
@@ -337,7 +337,7 @@
       "subtitle": "The Burn That Cures",
       "card_filename": "Lower Heaven2.png",
       "difficulty": "5-5",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "5-5.png"
     },
@@ -346,7 +346,7 @@
       "subtitle": "The Burn That Cures",
       "card_filename": "Lower Heaven2.png",
       "difficulty": "5-6",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "5-6.png"
     },
@@ -355,7 +355,7 @@
       "subtitle": "The Burn That Cures",
       "card_filename": "Lower Heaven2.png",
       "difficulty": "5-7",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "5-7.png"
     },
@@ -364,7 +364,7 @@
       "subtitle": "The Burn That Cures",
       "card_filename": "Lower Heaven2.png",
       "difficulty": "5-8",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "5-8.png"
     },
@@ -373,7 +373,7 @@
       "subtitle": "The Burn That Cures",
       "card_filename": "Lower Heaven2.png",
       "difficulty": "5-9",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "5-9.png"
     },
@@ -382,7 +382,7 @@
       "subtitle": "The Burn That Cures",
       "card_filename": "Lower Heaven2.png",
       "difficulty": "5-10",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "5-10.png"
     },
@@ -391,7 +391,7 @@
       "subtitle": "Covenant",
       "card_filename": "Hanging Gardens.png",
       "difficulty": "6-1",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "6-1.png"
     },
@@ -400,7 +400,7 @@
       "subtitle": "Covenant",
       "card_filename": "Hanging Gardens.png",
       "difficulty": "6-2",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "6-2.png"
     },
@@ -409,7 +409,7 @@
       "subtitle": "Covenant",
       "card_filename": "Hanging Gardens.png",
       "difficulty": "6-3",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "6-3.png"
     },
@@ -418,7 +418,7 @@
       "subtitle": "Covenant",
       "card_filename": "Hanging Gardens.png",
       "difficulty": "6-4",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "6-4.png"
     },
@@ -427,7 +427,7 @@
       "subtitle": "Covenant",
       "card_filename": "Hanging Gardens.png",
       "difficulty": "6-5",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "6-5.png"
     },
@@ -436,7 +436,7 @@
       "subtitle": "Covenant",
       "card_filename": "Hanging Gardens.png",
       "difficulty": "6-6",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "6-6.png"
     },
@@ -445,7 +445,7 @@
       "subtitle": "Covenant",
       "card_filename": "Hanging Gardens.png",
       "difficulty": "6-7",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "6-7.png"
     },
@@ -454,7 +454,7 @@
       "subtitle": "Covenant",
       "card_filename": "Hanging Gardens.png",
       "difficulty": "6-8",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "6-8.png"
     },
@@ -463,7 +463,7 @@
       "subtitle": "Covenant",
       "card_filename": "Hanging Gardens.png",
       "difficulty": "6-9",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "6-9.png"
     },
@@ -472,7 +472,7 @@
       "subtitle": "Covenant",
       "card_filename": "Hanging Gardens.png",
       "difficulty": "6-10",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "6-10.png"
     },
@@ -481,7 +481,7 @@
       "subtitle": "Reckoning",
       "card_filename": "Hanging Gardens.png",
       "difficulty": "7-1",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "7-1.png"
     },
@@ -490,7 +490,7 @@
       "subtitle": "Reckoning",
       "card_filename": "Hanging Gardens.png",
       "difficulty": "7-2",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "7-2.png"
     },
@@ -499,7 +499,7 @@
       "subtitle": "Reckoning",
       "card_filename": "Hanging Gardens.png",
       "difficulty": "7-3",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "7-3.png"
     },
@@ -508,7 +508,7 @@
       "subtitle": "Reckoning",
       "card_filename": "Hanging Gardens.png",
       "difficulty": "7-4",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "7-4.png"
     },
@@ -517,7 +517,7 @@
       "subtitle": "Reckoning",
       "card_filename": "Hanging Gardens.png",
       "difficulty": "7-5",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "7-5.png"
     },
@@ -526,7 +526,7 @@
       "subtitle": "Reckoning",
       "card_filename": "Hanging Gardens.png",
       "difficulty": "7-6",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "7-6.png"
     },
@@ -535,7 +535,7 @@
       "subtitle": "Reckoning",
       "card_filename": "Hanging Gardens.png",
       "difficulty": "7-7",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "7-7.png"
     },
@@ -544,7 +544,7 @@
       "subtitle": "Reckoning",
       "card_filename": "Hanging Gardens.png",
       "difficulty": "7-8",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "7-8.png"
     },
@@ -553,7 +553,7 @@
       "subtitle": "Reckoning",
       "card_filename": "Hanging Gardens.png",
       "difficulty": "7-9",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "7-9.png"
     },
@@ -562,7 +562,7 @@
       "subtitle": "Reckoning",
       "card_filename": "Hanging Gardens.png",
       "difficulty": "7-10",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "7-10.png"
     },
@@ -571,7 +571,7 @@
       "subtitle": "Benediction",
       "card_filename": "Heaven's Edge.png",
       "difficulty": "8-1",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "8-1.png"
     },
@@ -580,7 +580,7 @@
       "subtitle": "Benediction",
       "card_filename": "Heaven's Edge.png",
       "difficulty": "8-2",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "8-2.png"
     },
@@ -589,7 +589,7 @@
       "subtitle": "Benediction",
       "card_filename": "Heaven's Edge.png",
       "difficulty": "8-3",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "8-3.png"
     },
@@ -598,7 +598,7 @@
       "subtitle": "Benediction",
       "card_filename": "Heaven's Edge.png",
       "difficulty": "8-4",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": true,
       "banner_filename": "8-4.png"
     },
@@ -607,7 +607,7 @@
       "subtitle": "Benediction",
       "card_filename": "Heaven's Edge.png",
       "difficulty": "8-5",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "8-5.png"
     },
@@ -616,7 +616,7 @@
       "subtitle": "Benediction",
       "card_filename": "Heaven's Edge.png",
       "difficulty": "8-6",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "8-6.png"
     },
@@ -625,7 +625,7 @@
       "subtitle": "Benediction",
       "card_filename": "Heaven's Edge.png",
       "difficulty": "8-7",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": true,
       "banner_filename": "8-7.png"
     },
@@ -634,7 +634,7 @@
       "subtitle": "Benediction",
       "card_filename": "Heaven's Edge.png",
       "difficulty": "8-8",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "8-8.png"
     },
@@ -643,7 +643,7 @@
       "subtitle": "Benediction",
       "card_filename": "Heaven's Edge.png",
       "difficulty": "8-9",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "8-9.png"
     },
@@ -652,7 +652,7 @@
       "subtitle": "Benediction",
       "card_filename": "Heaven's Edge.png",
       "difficulty": "8-10",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "8-10.png"
     },
@@ -661,7 +661,7 @@
       "subtitle": "Apocrypha",
       "card_filename": "Heaven's Edge.png",
       "difficulty": "9-1",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "9-1.png"
     },
@@ -670,7 +670,7 @@
       "subtitle": "Apocrypha",
       "card_filename": "Heaven's Edge.png",
       "difficulty": "9-2",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "9-2.png"
     },
@@ -679,7 +679,7 @@
       "subtitle": "Apocrypha",
       "card_filename": "Heaven's Edge.png",
       "difficulty": "9-3",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "9-3.png"
     },
@@ -688,7 +688,7 @@
       "subtitle": "Apocrypha",
       "card_filename": "Heaven's Edge.png",
       "difficulty": "9-4",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "9-4.png"
     },
@@ -697,7 +697,7 @@
       "subtitle": "Apocrypha",
       "card_filename": "Heaven's Edge.png",
       "difficulty": "9-5",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "9-5.png"
     },
@@ -706,7 +706,7 @@
       "subtitle": "Apocrypha",
       "card_filename": "Heaven's Edge.png",
       "difficulty": "9-6",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "9-6.png"
     },
@@ -715,7 +715,7 @@
       "subtitle": "Apocrypha",
       "card_filename": "Heaven's Edge.png",
       "difficulty": "9-7",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "9-7.png"
     },
@@ -724,7 +724,7 @@
       "subtitle": "Apocrypha",
       "card_filename": "Heaven's Edge.png",
       "difficulty": "9-8",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "9-8.png"
     },
@@ -733,7 +733,7 @@
       "subtitle": "Apocrypha",
       "card_filename": "Heaven's Edge.png",
       "difficulty": "9-9",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "9-9.png"
     },
@@ -742,7 +742,7 @@
       "subtitle": "Apocrypha",
       "card_filename": "Heaven's Edge.png",
       "difficulty": "9-10",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "9-10.png"
     },
@@ -751,7 +751,7 @@
       "subtitle": "The Third Temple",
       "card_filename": "Third Temple.png",
       "difficulty": "10-1",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": true,
       "banner_filename": "10-1.png"
     },
@@ -760,7 +760,7 @@
       "subtitle": "The Third Temple",
       "card_filename": "Third Temple.png",
       "difficulty": "10-2",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": true,
       "banner_filename": "10-2.png"
     },
@@ -769,7 +769,7 @@
       "subtitle": "Thousand Pound Butterfly",
       "card_filename": "butterfly.png",
       "difficulty": "11-1",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "11-1.png"
     },
@@ -778,7 +778,7 @@
       "subtitle": "Thousand Pound Butterfly",
       "card_filename": "butterfly.png",
       "difficulty": "11-2",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "11-2.png"
     },
@@ -787,7 +787,7 @@
       "subtitle": "Thousand Pound Butterfly",
       "card_filename": "butterfly.png",
       "difficulty": "11-3",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "11-3.png"
     },
@@ -796,7 +796,7 @@
       "subtitle": "Thousand Pound Butterfly",
       "card_filename": "butterfly.png",
       "difficulty": "11-4",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "11-4.png"
     },
@@ -805,7 +805,7 @@
       "subtitle": "Thousand Pound Butterfly",
       "card_filename": "butterfly.png",
       "difficulty": "11-5",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "11-5.png"
     },
@@ -814,7 +814,7 @@
       "subtitle": "Thousand Pound Butterfly",
       "card_filename": "butterfly.png",
       "difficulty": "11-6",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "11-6.png"
     },
@@ -823,7 +823,7 @@
       "subtitle": "Thousand Pound Butterfly",
       "card_filename": "butterfly.png",
       "difficulty": "11-7",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "11-7.png"
     },
@@ -832,7 +832,7 @@
       "subtitle": "Thousand Pound Butterfly",
       "card_filename": "butterfly.png",
       "difficulty": "11-8",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "11-8.png"
     },
@@ -841,7 +841,7 @@
       "subtitle": "Thousand Pound Butterfly",
       "card_filename": "butterfly.png",
       "difficulty": "11-9",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "11-9.png"
     },
@@ -850,7 +850,7 @@
       "subtitle": "Thousand Pound Butterfly",
       "card_filename": "butterfly.png",
       "difficulty": "11-10",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "11-10.png"
     },
@@ -859,7 +859,7 @@
       "subtitle": "Hand of God",
       "card_filename": "absolution.png",
       "difficulty": "12-1",
-      "modes": "All",
+      "default_ban": 1,
       "is_no_cmod": true,
       "banner_filename": "12-1.png"
     },
@@ -868,7 +868,7 @@
       "subtitle": "Hand of God",
       "card_filename": "absolution.png",
       "difficulty": "12-2",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": true,
       "banner_filename": "12-2.png"
     },
@@ -877,7 +877,7 @@
       "subtitle": "Red Sidequest",
       "card_filename": "Sheol.png",
       "difficulty": "R-1",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "R-1.png"
     },
@@ -886,7 +886,7 @@
       "subtitle": "Red Sidequest",
       "card_filename": "Sheol.png",
       "difficulty": "R-2",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "R-2.png"
     },
@@ -895,7 +895,7 @@
       "subtitle": "Red Sidequest",
       "card_filename": "Sheol.png",
       "difficulty": "R-3",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "R-3.png"
     },
@@ -904,7 +904,7 @@
       "subtitle": "Red Sidequest",
       "card_filename": "Sheol.png",
       "difficulty": "R-4",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "R-4.png"
     },
@@ -913,7 +913,7 @@
       "subtitle": "Red Sidequest",
       "card_filename": "Sheol.png",
       "difficulty": "R-5",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": true,
       "banner_filename": "R-5.png"
     },
@@ -922,7 +922,7 @@
       "subtitle": "Red Sidequest",
       "card_filename": "Sheol.png",
       "difficulty": "R-6",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": true,
       "banner_filename": "R-6.png"
     },
@@ -931,7 +931,7 @@
       "subtitle": "Red Sidequest",
       "card_filename": "Sheol.png",
       "difficulty": "R-7",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": true,
       "banner_filename": "R-7.png"
     },
@@ -940,7 +940,7 @@
       "subtitle": "Red Sidequest",
       "card_filename": "Sheol.png",
       "difficulty": "R-8",
-      "modes": "All",
+      "default_ban": 1,
       "is_no_cmod": false,
       "banner_filename": "R-8.png"
     },
@@ -949,7 +949,7 @@
       "subtitle": "Violet Sidequest",
       "card_filename": "Sheol.png",
       "difficulty": "V-1",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "V-1.png"
     },
@@ -958,7 +958,7 @@
       "subtitle": "Violet Sidequest",
       "card_filename": "Sheol.png",
       "difficulty": "V-2",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "V-2.png"
     },
@@ -967,7 +967,7 @@
       "subtitle": "Violet Sidequest",
       "card_filename": "Sheol.png",
       "difficulty": "V-3",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "V-3.png"
     },
@@ -976,7 +976,7 @@
       "subtitle": "Violet Sidequest",
       "card_filename": "Sheol.png",
       "difficulty": "V-4",
-      "modes": "All",
+      "default_ban": 1,
       "is_no_cmod": false,
       "banner_filename": "V-4.png"
     },
@@ -985,7 +985,7 @@
       "subtitle": "Violet Sidequest",
       "card_filename": "Sheol.png",
       "difficulty": "V-5",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "V-5.png"
     },
@@ -994,7 +994,7 @@
       "subtitle": "Violet Sidequest",
       "card_filename": "Sheol.png",
       "difficulty": "V-6",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "V-6.png"
     },
@@ -1003,7 +1003,7 @@
       "subtitle": "Violet Sidequest",
       "card_filename": "Sheol.png",
       "difficulty": "V-7",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "V-7.png"
     },
@@ -1012,7 +1012,7 @@
       "subtitle": "Violet Sidequest",
       "card_filename": "Sheol.png",
       "difficulty": "V-8",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "V-8.png"
     },
@@ -1021,7 +1021,7 @@
       "subtitle": "Yellow Sidequest",
       "card_filename": "Sheol.png",
       "difficulty": "Y-1",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": true,
       "banner_filename": "Y-1.png"
     },
@@ -1030,7 +1030,7 @@
       "subtitle": "Yellow Sidequest",
       "card_filename": "Sheol.png",
       "difficulty": "Y-2",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "Y-2.png"
     },
@@ -1039,7 +1039,7 @@
       "subtitle": "Yellow Sidequest",
       "card_filename": "Sheol.png",
       "difficulty": "Y-3",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": true,
       "banner_filename": "Y-3.png"
     },
@@ -1048,7 +1048,7 @@
       "subtitle": "Yellow Sidequest",
       "card_filename": "Sheol.png",
       "difficulty": "Y-4",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": true,
       "banner_filename": "Y-4.png"
     },
@@ -1057,7 +1057,7 @@
       "subtitle": "Yellow Sidequest",
       "card_filename": "Sheol.png",
       "difficulty": "Y-5",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "Y-5.png"
     },
@@ -1066,7 +1066,7 @@
       "subtitle": "Yellow Sidequest",
       "card_filename": "Sheol.png",
       "difficulty": "Y-6",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": false,
       "banner_filename": "Y-6.png"
     },
@@ -1075,7 +1075,7 @@
       "subtitle": "Yellow Sidequest",
       "card_filename": "Sheol.png",
       "difficulty": "Y-7",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": true,
       "banner_filename": "Y-7.png"
     },
@@ -1084,7 +1084,7 @@
       "subtitle": "Yellow Sidequest",
       "card_filename": "Sheol.png",
       "difficulty": "Y-8",
-      "modes": "All",
+      "default_ban": 0,
       "is_no_cmod": true,
       "banner_filename": "Y-8.png"
     }
