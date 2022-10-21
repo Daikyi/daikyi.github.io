@@ -9,32 +9,42 @@ const discordWebhookUrl = 'https://dis' + 'corda' + 'pp.com/api/webho' + 'oks/';
 const previousStateStack = [];
 let cardObjects = [];
 let songs = [];
-let banlist = [];
+let banList = [];
 let isBanListActive = false;
 
 // when the webpage is finished loading
 $(document).ready(() => {
   const cards = $('#card_area');
   const cards_side = $('#sidebar_card_area');
-
+  document.getElementById('draws').style.display = "none";
+  document.getElementById('reset').style.display = "none";
+  function initBanList(song){
+	  banList.push(song.default_ban);
+  }
+  function resetBanList(song, index){
+	  banList[index] = song.default_ban;
+  }
   // load the song data
   // This may fail (eg when you're running a local copy of the site and
   // accessing via file:// urls).
   var jqXHR = $.getJSON(`res/${tournament}/data.json`, (data) => {
     songs = data;
-  })
-
+	songs.forEach(initBanList)
+  });
+  
   // Register a failure handler.
   jqXHR.fail(function() {
     var str = "Fail to load JSON. Stopping the page from loading.";
     //alert(str)
 	jqXHR = $.getJSON(`https://raw.githubusercontent.com/Daikyi/daikyi.github.io/main/res/neon/data.json`, (data) => {
 		songs = data;
-	  })
+		songs.forEach(initBanList)
+	});
     //throw new Error(str);
   });
 
   const statuses = ['card_regular', 'card_protected', 'card_vetoed'];
+  const banState = ['unbanned', 'banned'];
 
   let currentPosition = -1;
 
@@ -43,7 +53,9 @@ $(document).ready(() => {
     const songIndicesArray = [];
     // for each song, create a copy for removal in pool
     for (let i = 0; i < songs.length; i += 1) {
-        songIndicesArray.push(i);
+		if (banList[i] === 0) {
+			songIndicesArray.push(i);
+		}
     }
     return songIndicesArray;
   }
@@ -114,8 +126,10 @@ $(document).ready(() => {
       //img.find('.banner_image').css('background-image', `url("res/${tournament}/banners/${songObject.banner_filename}")`);
       //img.find('.card_body').css('background', `url("res/${tournament}/cards/${songObject.card_filename}")`);
 	  img.find('.card_body').css('background', `url("res/${tournament}/banners/${songObject.banner_filename}")`);
+	  img.find('.card_body').css('opacity', `.9`);
       //img.find('.card_body').css('background-size', `cover`);
       img_side.find('.sidebar_card_body').css('background-image', `url("res/${tournament}/banners/${songObject.banner_filename}")`);
+      img_side.find('.sidebar_card_body').css('opacity', `.9`);
       if (!songObject.is_no_cmod) {
         img.find('.no_cmod_box').remove();
         img_side.find('.no_cmod_box').remove();
@@ -153,22 +167,18 @@ $(document).ready(() => {
     const randomNumberArray = randomize(number);
     previousStateStack.push(randomNumberArray);
     currentPosition += 1;
+	document.getElementById('bans').style.display = "block";
+	document.getElementById('draws').style.display = "none";
     render(randomNumberArray);
   }
   
   function banDraw() {
-    const allSongs = [];
-
-    // for a total of numRequested times (or until no good songs left)
-    for (let i = 0; i < songs.length && songs.length > 0; i += 1) {
-      allSongs.push(i);
-    }
-
-	//then we render the thing yaaaay
+	  
+	//we render the thing yaaaay
 	clearCards();
 
-    for (let i = 0; i < allSongs.length; i += 1) {
-      const songObject = songs[cardArray[i]];
+    for (let i = 0; i < songs.length; i += 1) {
+      const songObject = songs[i];
       const img = $(`
             <div class="card_regular">
                 <div class="card_bound">
@@ -180,26 +190,44 @@ $(document).ready(() => {
                 </div>
             </div>
       `);
+		const img_side = $(`
+            <div class="card_regular">
+                <div class="sidebar_card_body">
+                    <div class="banner_image">
+						<div class="text_difficulty">${songObject.difficulty}</div>
+						<div class="text_content_title">${songObject.title}</div>
+						<div class="no_cmod_box">15m</div>
+					</div>
+                </div>
+            </div>
+      `)
 	  img.find('.card_body').css('background', `url("res/${tournament}/banners/${songObject.banner_filename}")`);
-       if (!songObject.is_no_cmod) {
+	  img.find('.card_body').css('opacity', `.9`);
+      img_side.find('.sidebar_card_body').css('background-image', `url("res/${tournament}/banners/${songObject.banner_filename}")`);
+      img_side.find('.sidebar_card_body').css('opacity', `.9`);
+      if (!songObject.is_no_cmod) {
         img.find('.no_cmod_box').remove();
         img_side.find('.no_cmod_box').remove();
       }
-      img.status = 0;
-      img.addClass(statuses[0]);
+	  const isBanned = banList[i];
+	  img.cardIndex = i;
+	  img.status = isBanned;
+      img.addClass(banState[isBanned]);
+      img_side.addClass(banState[isBanned]);
       img.click(() => {
-        img.removeClass(statuses[img.status]);
-        img_side.removeClass(statuses[img.status]);
+        img.removeClass(banState[img.status]);
+        img_side.removeClass(banState[img.status]);
         img.status += 1;
-        img.status %= statuses.length;
-        img.addClass(statuses[img.status]);
-        img_side.addClass(statuses[img.status]);
-		
+        img.status %= banState.length;
+        img.addClass(banState[img.status]);
+        img_side.addClass(banState[img.status]);
+		banList[img.cardIndex] = img.status;
       });
       cards.append(img);
-      cards_side.append(img_side);
-      cardObjects.push(img);
+	  cards_side.append(img_side);
+      //cardObjects.push(img);
     }
+	
   }
 
   function showDraw() {
@@ -320,5 +348,49 @@ $(document).ready(() => {
     if (mode) {
       cards_side.addClass('hide_vetoed');
     }
+  });
+  
+  $('#bans').on({
+    click: function() {
+        banDraw();
+		document.getElementById('bans').style.display = "none";
+		document.getElementById('draws').style.display = "block";
+		document.getElementById('reset').style.display = "block";
+      },
+    mouseenter: function() {
+      document.getElementById('bans').style.outline = '3px solid rgb(65,108,166)';
+      },
+    mouseout: function() {
+      document.getElementById('bans').style.outline = '';
+      }
+  });
+  
+  $('#draws').on({
+    click: function() {
+        showDraw();
+		document.getElementById('bans').style.display = "block";
+		document.getElementById('draws').style.display = "none";
+		document.getElementById('reset').style.display = "none";
+      },
+    mouseenter: function() {
+      document.getElementById('draws').style.outline = '3px solid rgb(65,108,166)';
+      },
+    mouseout: function() {
+      document.getElementById('draws').style.outline = '';
+      }
+  });  
+  
+  $('#reset').on({
+    click: function() {
+         
+		 songs.forEach(resetBanList);
+		 banDraw();
+      },
+    mouseenter: function() {
+      document.getElementById('reset').style.outline = '3px solid rgb(65,108,166)';
+      },
+    mouseout: function() {
+      document.getElementById('reset').style.outline = '';
+      }
   });
 });
