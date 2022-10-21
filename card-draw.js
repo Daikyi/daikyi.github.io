@@ -147,7 +147,14 @@ $(document).ready(() => {
         img.addClass(statuses[img.status]);
         img_side.addClass(statuses[img.status]);
       });
-
+      img_side.click(() => {
+        img.removeClass(statuses[img.status]);
+        img_side.removeClass(statuses[img.status]);
+        img.status += 1;
+        img.status %= statuses.length;
+        img.addClass(statuses[img.status]);
+        img_side.addClass(statuses[img.status]);
+      });
       cards.append(img);
       cards_side.append(img_side);
       cardObjects.push(img);
