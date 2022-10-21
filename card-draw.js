@@ -9,7 +9,8 @@ const discordWebhookUrl = 'https://dis' + 'corda' + 'pp.com/api/webho' + 'oks/';
 const previousStateStack = [];
 let cardObjects = [];
 let songs = [];
-
+let banlist = [];
+let isBanListActive = false;
 
 // when the webpage is finished loading
 $(document).ready(() => {
@@ -72,15 +73,19 @@ $(document).ready(() => {
     return chosenSongIndicesArray;
   }
 
+  function clearCards(){
+	// remove the old ones
+    cards.empty();
+    cards_side.empty();
+    cardObjects = [];
+  }
+
   function render(cardArray) {
     if (cardArray === null) {
       return;
     }
 
-    // remove the old ones
-    cards.empty();
-    cards_side.empty();
-    cardObjects = [];
+    clearCards();
 
     for (let i = 0; i < cardArray.length; i += 1) {
       const songObject = songs[cardArray[i]];
@@ -88,27 +93,9 @@ $(document).ready(() => {
             <div class="card_regular">
                 <div class="card_bound">
                     <div class="card_body">
-                        <div class="info_bar">
-                            <!--<div class="info_title">
-                                <div class="text_title">${songObject.title}</div>
-                            </div>-->
-                            <div class="info_difficulty">
-                                <!--<div class="text_difficulty_marker">Stage</div>-->
-                                <div class="text_difficulty">${songObject.difficulty}</div>
-                            </div>
-                        </div>
-                        <div class="banner_image"></div>
-                        <div class="content_bar">
-                            <div class="info_content_title">
-                                <div class="text_content_title">${songObject.title}</div>
-                            </div>
-                            <div class="info_content_subtitle">
-                                <div class="text_content_subtitle">${songObject.subtitle}</div>
-                            </div>
-                            <div class="info_content_cmod">
-                                <div class="no_cmod_box">15 Mins</div>
-                            </div>
-                        </div>
+						<div class="text_difficulty">${songObject.difficulty}</div>
+						<div class="text_content_title">${songObject.title}</div>
+						<div class="no_cmod_box">15m</div>
                     </div>
                 </div>
             </div>
@@ -116,17 +103,22 @@ $(document).ready(() => {
       const img_side = $(`
             <div class="card_regular">
                 <div class="sidebar_card_body">
-                    <div class="banner_image"></div>
-                    <div class="text_difficulty_side">${songObject.title}</div>
+                    <div class="banner_image">
+						<div class="text_difficulty">${songObject.difficulty}</div>
+						<div class="text_content_title">${songObject.title}</div>
+						<div class="no_cmod_box">15m</div>
+					</div>
                 </div>
             </div>
       `)
-      img.find('.banner_image').css('background-image', `url("res/${tournament}/banners/${songObject.banner_filename}")`);
-      img.find('.card_body').css('background', `url("res/${tournament}/cards/${songObject.card_filename}")`);
-      img.find('.card_body').css('background-size', `cover`);
-      img_side.find('.banner_image').css('background-image', `url("res/${tournament}/banners/${songObject.banner_filename}")`);
+      //img.find('.banner_image').css('background-image', `url("res/${tournament}/banners/${songObject.banner_filename}")`);
+      //img.find('.card_body').css('background', `url("res/${tournament}/cards/${songObject.card_filename}")`);
+	  img.find('.card_body').css('background', `url("res/${tournament}/banners/${songObject.banner_filename}")`);
+      //img.find('.card_body').css('background-size', `cover`);
+      img_side.find('.sidebar_card_body').css('background-image', `url("res/${tournament}/banners/${songObject.banner_filename}")`);
       if (!songObject.is_no_cmod) {
         img.find('.no_cmod_box').remove();
+        img_side.find('.no_cmod_box').remove();
       }
       if (songObject.subtitle === '') {
         img.find('.text_subtitle').remove();
@@ -162,6 +154,60 @@ $(document).ready(() => {
     previousStateStack.push(randomNumberArray);
     currentPosition += 1;
     render(randomNumberArray);
+  }
+  
+  function banDraw() {
+    const allSongs = [];
+
+    // for a total of numRequested times (or until no good songs left)
+    for (let i = 0; i < songs.length && songs.length > 0; i += 1) {
+      allSongs.push(i);
+    }
+
+	//then we render the thing yaaaay
+	clearCards();
+
+    for (let i = 0; i < allSongs.length; i += 1) {
+      const songObject = songs[cardArray[i]];
+      const img = $(`
+            <div class="card_regular">
+                <div class="card_bound">
+                    <div class="card_body">
+						<div class="text_difficulty">${songObject.difficulty}</div>
+						<div class="text_content_title">${songObject.title}</div>
+						<div class="no_cmod_box">15m</div>
+                    </div>
+                </div>
+            </div>
+      `);
+	  img.find('.card_body').css('background', `url("res/${tournament}/banners/${songObject.banner_filename}")`);
+       if (!songObject.is_no_cmod) {
+        img.find('.no_cmod_box').remove();
+        img_side.find('.no_cmod_box').remove();
+      }
+      img.status = 0;
+      img.addClass(statuses[0]);
+      img.click(() => {
+        img.removeClass(statuses[img.status]);
+        img_side.removeClass(statuses[img.status]);
+        img.status += 1;
+        img.status %= statuses.length;
+        img.addClass(statuses[img.status]);
+        img_side.addClass(statuses[img.status]);
+		
+      });
+      cards.append(img);
+      cards_side.append(img_side);
+      cardObjects.push(img);
+    }
+  }
+
+  function showDraw() {
+	  if (currentPosition >= 0) {
+		render(previousStateStack[currentPosition]);
+	  } else {
+		clearCards();
+	  }
   }
 
   function fuckGoBack() {
@@ -205,10 +251,10 @@ $(document).ready(() => {
         draw(3);
       },
     mouseenter: function() {
-      document.getElementById('draw5').style.outline = '3px solid rgb(65,108,166)';
+      document.getElementById('draw3').style.outline = '3px solid rgb(65,108,166)';
       },
     mouseout: function() {
-      document.getElementById('draw5').style.outline = '';
+      document.getElementById('draw3').style.outline = '';
       }
   });
 

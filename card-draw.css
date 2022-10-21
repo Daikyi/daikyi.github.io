@@ -84,6 +84,8 @@ body {
     display: flex;
     font-family: 'Lato', sans-serif;
     flex-wrap: wrap;
+	align-items:center;
+	justify-content: center;
 }
 
 #sidebar_card_area {
@@ -91,18 +93,19 @@ body {
 }
 
 .card_bound {
-    background: #000000;
+    background: #222222;
     border: 4px solid #000000;
     display: inline-block;
     margin: 5px;
-    padding: 5px 5px 5px 2px;
-    box-shadow: 5px 5px 2px 2px #111111;
+    padding: 3px 3px 3px 3px;
+    box-shadow: 3px 3px 2px 2px #111111;
     border-radius: 15px;
+
 }
 
 .card_regular, .card_protected, .card_vetoed {
     display: inline-block;
-    margin: 10px;
+    margin: 2px;
     padding: 2px;
     border-radius: 20px;
 }
@@ -111,7 +114,7 @@ body {
     display: inline-block;
     margin: 2px;
     padding: 0px;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .hide_vetoed .card_vetoed {
@@ -123,35 +126,42 @@ body {
 }
 
 .card_regular {
-    border: 7px solid #444444;
+    border: 3px solid #444444;
     opacity: .8;
 }
 
 .card_protected {
-    border: 7px solid #2589dd;
+    border: 3px solid #2589dd;
     opacity: 1;
 }
 
 .card_vetoed {
-    border: 7px solid #444444;
+    border: 3px solid #444444;
     opacity: .2;
 }
 
 .card_body {
-    display: inline-block;
-    background: url("res/img/basic_card_small.png");
+    display: flex;
+	justify-content: space-aroun
+    /*background: url("res/img/basic_card_small.png");*/
     background-size: cover;
-    width: 354px;
-    height: 346px;
+    width: 333px;
+    height: 30px;
     user-select: none;
+	border-radius:5px;
 }
 
 .banner_image {
+	position: relative;
+	left: 0;
+	top: 0;
     background-size: cover;
     width: 313.5px;
-    height: 123px;
-    margin-left: 22px;
-    margin-right: 18px;
+    height: 30px;
+    margin-left: 0px;
+    margin-right: 0px;
+	border-radius:5px;
+	display: flex;
 }
 
 .info_bar {
@@ -175,10 +185,11 @@ body {
 }
 
 .info_difficulty {
-	text-align: center;
+	text-align: left;
     /*display: flex;*/
     margin: auto;
     padding-bottom: 4px;
+
     padding-top: 8px;
     align-items: baseline;
 }
@@ -188,8 +199,12 @@ body {
 }
 
 .text_difficulty {
-    font-size: 150%;
-	color: #DDDDDD;
+    font-size: 120%;
+	padding-left: 4px;
+	padding-top: 2px;
+	color: #000000;
+	display: inline;
+	text-shadow: -2px 0 2px #DDDDDD, 0 2px 2px #DDDDDD, 2px 0 2px #DDDDDD, 0 -2px 2px #DDDDDD;
 }
 
 .sidebar_card_body {
@@ -197,36 +212,52 @@ body {
     top: 0px;
     left: 0px;
 }
-
-.sidebar .text_difficulty_side {
+/*.sidebar .text_difficulty_side {
     position: absolute;
-	font-size: 125%;
+	font-size: 120%;
     top: 0px;
     left: 0px;
-    text-align: center;
-    background-color: #CCCCCC;
+    text-align: left;
+	text-shadow: -1px 0 #DDDDDD, 0 1px #DDDDDD, 1px 0 #DDDDDD, 0 -1px #DDDDDD;
 }
 
+.sidebar .text_title_side {
+    position: absolute;
+	font-size: 120%;
+    top: 0px;
+    text-align: center;
+	color: #DDDDDD;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	flex-grow: 1;
+}*/
+
 .content_bar {
-    display: flex;
+    display: relative;
     margin-left: 22px;
     margin-right: 18px;
     margin-top: 25px;
     height: 130px;
     font-weight: 700;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
+    align-items: left;
+    text-align: left;
+    justify-content: left;
 }
 
 .text_content_title {
-    font-size: 180%;
+	display: inline;
+	position: relative;
+	padding-top: 2px;
+	/*right: 0px;*/
+    font-size: 130%;
     text-align: center;
+	color: #DDDDDD;
+	text-shadow: -2px 0 1px black, 0 2px 1px black, 2px 0 1px black, 0 -2px 1px black;
+	flex-grow: 1;
 }
 
 .text_content_subtitle {
-    font-size: 140%;
+    font-size: 120%;
     text-align: center;
 }
 
@@ -238,7 +269,11 @@ body {
 .no_cmod_box {
     background: #48429f;
     color: #CCCCCC;
-    font-size: 120%;
-    padding: 0px 8px;
+    font-size: 125%;
+    padding: 2px 3px;
     border-radius: 5px;
+	position: relative;
+	text-align: right;
+	float: right;
+	right: 0px;
 }
