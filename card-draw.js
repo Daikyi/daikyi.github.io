@@ -147,6 +147,7 @@ $(document).ready(() => {
         img.addClass(statuses[img.status]);
         img_side.addClass(statuses[img.status]);
       });
+
       cards.append(img);
       cards_side.append(img_side);
       cardObjects.push(img);
@@ -172,8 +173,7 @@ $(document).ready(() => {
     render(randomNumberArray);
   }
   
-  function banDraw() {
-	  
+  function banDraw() {	
 	//we render the thing yaaaay
 	clearCards();
 
@@ -223,6 +223,17 @@ $(document).ready(() => {
         img_side.addClass(banState[img.status]);
 		banList[img.cardIndex] = img.status;
       });
+	  
+	  img_side.click(() => {
+        img.removeClass(banState[img.status]);
+        img_side.removeClass(banState[img.status]);
+        img.status += 1;
+        img.status %= banState.length;
+        img.addClass(banState[img.status]);
+        img_side.addClass(banState[img.status]);
+		banList[img.cardIndex] = img.status;
+      });
+	  
       cards.append(img);
 	  cards_side.append(img_side);
       //cardObjects.push(img);
@@ -353,9 +364,11 @@ $(document).ready(() => {
   $('#bans').on({
     click: function() {
         banDraw();
+		document.getElementById('sidebar_text').innerHTML = "Ban List (for streaming)";
 		document.getElementById('bans').style.display = "none";
 		document.getElementById('draws').style.display = "block";
 		document.getElementById('reset').style.display = "block";
+		document.getElementById('veto_div').style.display = "none";
       },
     mouseenter: function() {
       document.getElementById('bans').style.outline = '3px solid rgb(65,108,166)';
@@ -368,9 +381,11 @@ $(document).ready(() => {
   $('#draws').on({
     click: function() {
         showDraw();
+		document.getElementById('sidebar_text').innerHTML = "Stage List (for streaming)";
 		document.getElementById('bans').style.display = "block";
 		document.getElementById('draws').style.display = "none";
 		document.getElementById('reset').style.display = "none";
+		document.getElementById('veto_div').style.display = "block";
       },
     mouseenter: function() {
       document.getElementById('draws').style.outline = '3px solid rgb(65,108,166)';
@@ -382,7 +397,6 @@ $(document).ready(() => {
   
   $('#reset').on({
     click: function() {
-         
 		 songs.forEach(resetBanList);
 		 banDraw();
       },
