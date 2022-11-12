@@ -306,7 +306,7 @@ $(document).ready(() => {
 
   $('#draw5').on ({
     click: function() {
-        draw(5);
+        draw(11);
       },
     mouseenter: function() {
       document.getElementById('draw5').style.outline = '3px solid rgb(65,108,166)';
