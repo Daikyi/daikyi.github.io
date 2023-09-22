@@ -193,7 +193,7 @@
       "subtitle": "Only Shallow",
       "card_filename": "Lower Heaven2.png",
       "difficulty": "3-2",
-      "default_ban": 0,
+      "default_ban": 1,
       "is_no_cmod": false,
       "banner_filename": "3-2.png"
     },
@@ -625,7 +625,7 @@
       "subtitle": "Benediction",
       "card_filename": "Heaven's Edge.png",
       "difficulty": "8-7",
-      "default_ban": 0,
+      "default_ban": 1,
       "is_no_cmod": true,
       "banner_filename": "8-7.png"
     },
@@ -778,7 +778,7 @@
       "subtitle": "Thousand Pound Butterfly",
       "card_filename": "butterfly.png",
       "difficulty": "11-2",
-      "default_ban": 0,
+      "default_ban": 1,
       "is_no_cmod": false,
       "banner_filename": "11-2.png"
     },
@@ -958,7 +958,7 @@
       "subtitle": "Violet Sidequest",
       "card_filename": "Sheol.png",
       "difficulty": "V-2",
-      "default_ban": 0,
+      "default_ban": 1,
       "is_no_cmod": false,
       "banner_filename": "V-2.png"
     },
@@ -1012,7 +1012,7 @@
       "subtitle": "Violet Sidequest",
       "card_filename": "Sheol.png",
       "difficulty": "V-8",
-      "default_ban": 0,
+      "default_ban": 1,
       "is_no_cmod": false,
       "banner_filename": "V-8.png"
     },
@@ -1030,7 +1030,7 @@
       "subtitle": "Yellow Sidequest",
       "card_filename": "Sheol.png",
       "difficulty": "Y-2",
-      "default_ban": 0,
+      "default_ban": 1,
       "is_no_cmod": false,
       "banner_filename": "Y-2.png"
     },
