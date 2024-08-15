@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!--
+	This website is heavily heavily based off of the DDRIllini card draw website at
+	https://github.com/ddrillini/rip-website/tree/master/card-draw
+	
+	Big shoutouts to Andrew Park for (I believe) the base code and a super well defined jumping off point
+	to get this carddraw out and available for Neon White in such a short time
+-->
+<html>
+    <head>
+        <title>card draw</title>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+        <link rel="stylesheet" href="card-draw.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:700">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:700|Pragati+Narrow:700">
+
+        <script type="text/javascript" src="deps/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src="card-draw.js"></script>
+    </head>
+    <body>
+        <div class="page">
+        <div class="sidebar">
+            <div class="sidebar_info">
+                <div id="sidebar_text">Stage List (for streaming)</div>
+                <div id="veto_div">
+                    <label>
+                        <input id="hide_vetoed" name="hide_vetoed" type="checkbox" unchecked> Hide vetoed songs
+                    </label>
+                </div>
+            </div>
+            <div id="sidebar_card_area"></div>
+        </div>
+        <div class="main">
+        <div class="tool_bar">
+            <div class="tool_group">
+            <div class="title_card">
+                <!--<img src="res/img/rip12.svg" width="150px">	replace with actual neon tourney logo-->
+            </div>
+			<input id="bans" type="submit" class="button" value="Show Bans">
+			<input id="reset" type="submit" class="button" value="Reset Bans">
+			<input id="draws" type="submit" class="button" value="Show Draws">
+            <input id="draw5" type="submit" class="button" value="Draw 11">
+			<input id="draw7" type="submit" class="button" value="Draw 7">
+            <input id="draw3" type="submit" class="button" value="Draw 3 (Ties)">
+            <div class="options">
+                <div>
+                    <label>
+                        Difficulty:
+                        <input id="diff_lo" type="text" class="diff_input" value="9">
+                        &ndash;
+                        <input id="diff_hi" type="text" class="diff_input" value="14">
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        <input id="round_pool" name="round" type="radio" value="pool" checked> Pool
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        <input id="round_dbel" name="round" type="radio" value="dbel" > DE
+                    </label>
+                </div>
+            </div>
+        </div>
+
+            <div class="tool_group">
+                <input id="undo" type="submit" class="button" value="Undo">
+                <input id="redo" type="submit" class="button" value="Redo">
+
+                <!--<input id="submit" type="submit" class="button" value="Send">-->
+            </div>
+        </div>
+
+        <hr>
+
+        <div id="card_area">
+
+        </div>
+        </div>
+        </div>
+
+    </body>
+</html>
